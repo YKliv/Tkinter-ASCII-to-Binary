@@ -1,0 +1,46 @@
+
+version: 2.1
+
+update_bundler: &update_bundler
+  run:
+    name: update bundler
+    command: gem update bundler
+
+bundle_install: &bundle_install
+  run:
+    name: bundle install
+    command: bundle install --path vendor/bundle --jobs 4
+
+git statusrestore_bundle_cache: &restore_bundle_cache
+  restore_cache:
+    key: cache-bundler-{{ checksum "Gemfile.lock" }}
+
+install_cmake: &install_cmake
+  run:
+    name: install cmake
+    command: sudo apt-get install cmake
+
+jobs:
+  build:
+    docker:
+      - image: cimg/ruby:2.7.5
+    steps:
+      - checkout
+      - *install_cmake
+      - *restore_bundle_cache
+      - *update_bundler
+      - *bundle_install
+      - save_cache:
+          key: cache-bundler-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+  rubocop:
+    docker:
+      - image: cimg/ruby:2.7.5
+    steps:
+      - checkout
+      - *install_cmake
+      - *restore_bundle_cache
+      - *update_bundler
+      - *bundle_install
+      - run: bundle exec rubocop
