@@ -44,3 +44,26 @@ jobs:
       - *update_bundler
       - *bundle_install
       - run: bundle exec rubocop
+  rspec:
+    docker:
+      - image: cimg/ruby:2.7.5
+    steps:
+      - checkout
+      - *install_cmake
+      - *restore_bundle_cache
+      - *update_bundler
+      - *bundle_install
+      - run:
+          environment:
+            COVERAGE: true
+            CODECOV_TOKEN: efe02ed0-e754-42a6-bb90-bbf345747bdc
+          command: bundle exec rspec
+workflows:
+  version: 2.1
+  rspec:
+    jobs:
+      - build
+      - rubocop:
+          requires: [build]
+      - rspec:
+          requires: [build]
