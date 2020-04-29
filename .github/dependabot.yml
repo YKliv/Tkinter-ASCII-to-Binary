@@ -1,4 +1,7 @@
 version: 2
 updates:
 - package-ecosystem: bundler
-  directory: "/
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "12:
