@@ -1,2 +1,4 @@
 version: 2
-updat
+updates:
+- package-ecosystem: bundler
+  directory: "/
