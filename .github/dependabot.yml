@@ -10,4 +10,5 @@ updates:
   reviewers:
   - unhappychoice
   allow:
-  - dependency-ty
+  - dependency-type: direct
+  - dependency-type: indirect
