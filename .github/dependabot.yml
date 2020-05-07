@@ -14,4 +14,7 @@ updates:
   - dependency-type: indirect
   ignore:
   - dependency-name: codecov
-    versions
+    versions:
+    - ">= 0.2.14.a, < 0.2.15"
+  - dependency-name: rubocop
+ 
