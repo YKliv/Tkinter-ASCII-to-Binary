@@ -20,3 +20,6 @@ updates:
     versions:
     - 1.12.1
   - dependency-name: listen
+    versions:
+    - 3.5.0
+  - dependency-name: gi
