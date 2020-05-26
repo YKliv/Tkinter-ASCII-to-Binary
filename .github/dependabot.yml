@@ -22,4 +22,7 @@ updates:
   - dependency-name: listen
     versions:
     - 3.5.0
-  - dependency-name: gi
+  - dependency-name: github_changelog_generator
+    versions:
+    - 1.16.0
+ 
