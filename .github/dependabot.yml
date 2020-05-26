@@ -25,4 +25,5 @@ updates:
   - dependency-name: github_changelog_generator
     versions:
     - 1.16.0
- 
+    - 1.16.1
+  - dependency-name: co
