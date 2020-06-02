@@ -12,4 +12,5 @@ jobs:
       - uses: actions/checkout@master
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
-      
+        with:
+          ruby-version: ${{ matrix
