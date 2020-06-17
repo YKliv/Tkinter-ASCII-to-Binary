@@ -15,4 +15,5 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
       - name: Install bundler
-        run: gem i
+        run: gem install bundler
+      - name: Install de
