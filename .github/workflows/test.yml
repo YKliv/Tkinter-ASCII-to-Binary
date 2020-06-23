@@ -16,4 +16,5 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
       - name: Install bundler
         run: gem install bundler
-      - name: Install de
+      - name: Install dependencies
+        run: bundle install --jo
