@@ -134,3 +134,36 @@
 - Bump circleci from 2.0.2 to 2.0.3 [\#106](https://github.com/unhappychoice/circleci-cli/pull/106) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump lumberjack from 1.0.13 to 1.1.0 [\#104](https://github.com/unhappychoice/circleci-cli/pull/104) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
 - Bump public\_suffix from 4.0.2 to 4.0.3 [\#103](https://github.com/unhappychoice/circleci-cli/pull/103) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+## [v2.3.0](https://github.com/unhappychoice/circleci-cli/tree/v2.3.0) (2019-10-03)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v2.2.0...v2.3.0)
+
+**Closed issues:**
+
+- Fix dot formatting when running ruby specs [\#47](https://github.com/unhappychoice/circleci-cli/issues/47)
+
+**Merged pull requests:**
+
+- docs: add fzf as a contributor [\#49](https://github.com/unhappychoice/circleci-cli/pull/49) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- ⬆️ Bump listen from 3.1.5 to 3.2.0 [\#48](https://github.com/unhappychoice/circleci-cli/pull/48) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Allow newlines from circle [\#46](https://github.com/unhappychoice/circleci-cli/pull/46) ([fzf](https://github.com/fzf))
+- Adding user option to watch [\#44](https://github.com/unhappychoice/circleci-cli/pull/44) ([fzf](https://github.com/fzf))
+- ⬆️ Bump codecov from 0.1.14 to 0.1.15 [\#43](https://github.com/unhappychoice/circleci-cli/pull/43) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- ⬆️ Bump rake from 12.3.3 to 13.0.0 [\#42](https://github.com/unhappychoice/circleci-cli/pull/42) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- ⬆️ Update faraday requirement from \>= 0.14, \< 0.16 to \>= 0.14, \< 0.17 [\#41](https://github.com/unhappychoice/circleci-cli/pull/41) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- ⬆️ Bump minitest from 5.12.0 to 5.12.2 [\#40](https://github.com/unhappychoice/circleci-cli/pull/40) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- docs: add fzf as a contributor [\#39](https://github.com/unhappychoice/circleci-cli/pull/39) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+
+## [v2.2.0](https://github.com/unhappychoice/circleci-cli/tree/v2.2.0) (2019-09-29)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v2.1.0...v2.2.0)
+
+**Closed issues:**
+
+- Watch specific branch [\#34](https://github.com/unhappychoice/circleci-cli/issues/34)
+
+**Merged pull requests:**
+
+- Branch parameter to watch command [\#38](https://github.com/unhappychoice/circleci-cli/pull/38) ([unhappychoice](https://github.com/unhappychoice))
+- docs: add mattbrictson as a contributor [\#37](https://github.com/unhappychoice/circleci-cli/pull/37) ([allcontributors[bot]](https://github.com/apps/allcontributors))
