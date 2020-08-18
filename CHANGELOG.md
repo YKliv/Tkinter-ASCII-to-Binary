@@ -167,3 +167,51 @@
 
 - Branch parameter to watch command [\#38](https://github.com/unhappychoice/circleci-cli/pull/38) ([unhappychoice](https://github.com/unhappychoice))
 - docs: add mattbrictson as a contributor [\#37](https://github.com/unhappychoice/circleci-cli/pull/37) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- All contributors [\#36](https://github.com/unhappychoice/circleci-cli/pull/36) ([unhappychoice](https://github.com/unhappychoice))
+- Handle GitHub repository names that contain '.' [\#35](https://github.com/unhappychoice/circleci-cli/pull/35) ([mattbrictson](https://github.com/mattbrictson))
+- :+1: Create GitHub action config file [\#33](https://github.com/unhappychoice/circleci-cli/pull/33) ([unhappychoice](https://github.com/unhappychoice))
+- Changelog [\#32](https://github.com/unhappychoice/circleci-cli/pull/32) ([unhappychoice](https://github.com/unhappychoice))
+
+## [v2.1.0](https://github.com/unhappychoice/circleci-cli/tree/v2.1.0) (2019-09-23)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v2.0.0...v2.1.0)
+
+**Closed issues:**
+
+- Change color scheme? [\#30](https://github.com/unhappychoice/circleci-cli/issues/30)
+- Watching project  [\#26](https://github.com/unhappychoice/circleci-cli/issues/26)
+
+**Merged pull requests:**
+
+- Change light black color to white to make more readable [\#31](https://github.com/unhappychoice/circleci-cli/pull/31) ([unhappychoice](https://github.com/unhappychoice))
+- Last failed option [\#29](https://github.com/unhappychoice/circleci-cli/pull/29) ([unhappychoice](https://github.com/unhappychoice))
+- :+1: Add last option to build command [\#28](https://github.com/unhappychoice/circleci-cli/pull/28) ([unhappychoice](https://github.com/unhappychoice))
+- Reimplement watch command to watch project [\#27](https://github.com/unhappychoice/circleci-cli/pull/27) ([unhappychoice](https://github.com/unhappychoice))
+
+## [v2.0.0](https://github.com/unhappychoice/circleci-cli/tree/v2.0.0) (2019-09-22)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v1.0.0...v2.0.0)
+
+## [v1.0.0](https://github.com/unhappychoice/circleci-cli/tree/v1.0.0) (2019-09-22)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v0.6.4...v1.0.0)
+
+**Merged pull requests:**
+
+- Rename gem [\#25](https://github.com/unhappychoice/circleci-cli/pull/25) ([unhappychoice](https://github.com/unhappychoice))
+
+## [v0.6.4](https://github.com/unhappychoice/circleci-cli/tree/v0.6.4) (2019-09-22)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v0.6.3...v0.6.4)
+
+## [v0.6.3](https://github.com/unhappychoice/circleci-cli/tree/v0.6.3) (2019-09-22)
+
+[Full Changelog](https://github.com/unhappychoice/circleci-cli/compare/v0.6.2...v0.6.3)
+
+**Closed issues:**
+
+- guard [\#17](https://github.com/unhappychoice/circleci-cli/issues/17)
+- rubocop [\#16](https://github.com/unhappychoice/circleci-cli/issues/16)
+- rspec [\#15](https://github.com/unhappychoice/circleci-cli/issues/15)
+
+**Merged pull requests:**
