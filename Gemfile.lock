@@ -211,3 +211,12 @@ DEPENDENCIES
   codecov
   github_changelog_generator
   guard
+  guard-rspec
+  guard-rubocop
+  rake
+  rspec
+  rubocop
+  simplecov
+
+BUNDLED WITH
+   2.0.2
