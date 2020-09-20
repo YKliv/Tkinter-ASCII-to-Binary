@@ -9,4 +9,6 @@
 
 ## Note: if you are using the `directories` clause above and you are not
 ## watching the project directory ('.'), then you will want to move
-## the Guardfile t
+## the Guardfile to a watched dir and symlink it back, e.g.
+#
+#  $ mkd
