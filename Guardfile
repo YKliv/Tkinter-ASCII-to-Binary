@@ -11,4 +11,6 @@
 ## watching the project directory ('.'), then you will want to move
 ## the Guardfile to a watched dir and symlink it back, e.g.
 #
-#  $ mkd
+#  $ mkdir config
+#  $ mv Guardfile config/
+#  $ ln -s co
