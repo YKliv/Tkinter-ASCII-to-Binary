@@ -7,4 +7,5 @@
 # directories %w(app lib config test spec features) \
 #  .select{|d| Dir.exist?(d) ? d : UI.warning("Directory #{d} does not exist")}
 
-## Note: if you are using the `directories` clause above and 
+## Note: if you are using the `directories` clause above and you are not
+## watching the project directory
