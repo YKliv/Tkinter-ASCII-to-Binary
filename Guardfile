@@ -13,4 +13,6 @@
 #
 #  $ mkdir config
 #  $ mv Guardfile config/
-#  $ ln -s co
+#  $ ln -s config/Guardfile .
+#
+# and, you'll hav
