@@ -15,4 +15,4 @@
 #  $ mv Guardfile config/
 #  $ ln -s config/Guardfile .
 #
-# and, you'll hav
+# and, you'll have to watch "config/Guardfile" instead of 
