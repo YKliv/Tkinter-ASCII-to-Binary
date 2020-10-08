@@ -17,4 +17,5 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
-# NOTE: The cmd option is now requir
+# NOTE: The cmd option is now required due to the increasing number of ways
+#     
