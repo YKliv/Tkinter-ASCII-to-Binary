@@ -15,4 +15,6 @@
 #  $ mv Guardfile config/
 #  $ ln -s config/Guardfile .
 #
-# and, you'll have to watch "config/Guardfile" instead of 
+# and, you'll have to watch "config/Guardfile" instead of "Guardfile"
+
+# NOTE: The cmd option is now requir
