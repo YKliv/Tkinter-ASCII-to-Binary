@@ -20,4 +20,5 @@
 # NOTE: The cmd option is now required due to the increasing number of ways
 #       rspec may be run, below are examples of the most common uses.
 #  * bundler: 'bundle exec rspec'
-#  * bundler binstubs: 'bin
+#  * bundler binstubs: 'bin/rspec'
+#  * spring: 'bin/rspec' (This will use spri
