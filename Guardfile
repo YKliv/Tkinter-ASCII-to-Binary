@@ -21,4 +21,5 @@
 #       rspec may be run, below are examples of the most common uses.
 #  * bundler: 'bundle exec rspec'
 #  * bundler binstubs: 'bin/rspec'
-#  * spring: 'bin/rspec' (This will use spri
+#  * spring: 'bin/rspec' (This will use spring if running and you have
+#                   
