@@ -23,3 +23,4 @@
 #  * bundler binstubs: 'bin/rspec'
 #  * spring: 'bin/rspec' (This will use spring if running and you have
 #                          installed the spring binstubs per the docs)
+#  * zeus: 'zeus rspec' (requires the server to be started s
