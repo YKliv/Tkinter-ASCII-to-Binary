@@ -26,4 +26,6 @@
 #  * zeus: 'zeus rspec' (requires the server to be started separately)
 #  * 'just' rspec: 'rspec'
 
-guard :rspec, cmd
+guard :rspec, cmd: 'bundle exec rspec' do
+  require 'guard/rspec/dsl'
+ 
