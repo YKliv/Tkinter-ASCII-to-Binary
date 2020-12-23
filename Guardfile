@@ -44,4 +44,5 @@ guard :rspec, cmd: 'bundle exec rspec' do
 end
 
 guard :rubocop do
-  watch(/.+\.rb$
+  watch(/.+\.rb$/)
+  watch(%r{(?:.+/)?\.rubocop(?:_todo)?\.yml$}) { |m| File.
