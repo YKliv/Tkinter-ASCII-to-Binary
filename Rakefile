@@ -8,4 +8,4 @@ RSpec::Core::RakeTask.new(:spec)
 
 task default: :spec
 
-GitHubCha
+GitHubChangelogGenerator::RakeTask.new :changelog do |co
