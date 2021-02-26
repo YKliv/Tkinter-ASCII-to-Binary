@@ -9,4 +9,6 @@ RSpec::Core::RakeTask.new(:spec)
 task default: :spec
 
 GitHubChangelogGenerator::RakeTask.new :changelog do |config|
-  config.user = 'unhappychoice
+  config.user = 'unhappychoice'
+  config.project = 'circleci-cli'
+  con
