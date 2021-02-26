@@ -8,4 +8,5 @@ RSpec::Core::RakeTask.new(:spec)
 
 task default: :spec
 
-GitHubChangelogGenerator::RakeTask.new :changelog do |co
+GitHubChangelogGenerator::RakeTask.new :changelog do |config|
+  config.user = 'unhappychoice
