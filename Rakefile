@@ -11,4 +11,5 @@ task default: :spec
 GitHubChangelogGenerator::RakeTask.new :changelog do |config|
   config.user = 'unhappychoice'
   config.project = 'circleci-cli'
-  con
+  config.since_tag = '0.1.0'
+  # config.future_releas
