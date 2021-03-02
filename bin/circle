@@ -2,3 +2,5 @@
 # frozen_string_literal: true
 
 require 'circleci_cli'
+
+CircleCI::CLI::Runner.start
