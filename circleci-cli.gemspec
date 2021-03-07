@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-lib = Fil
+lib = File.expand_path('lib', __dir__)
+$LOAD_PATH.unshift(lib) unless $L
