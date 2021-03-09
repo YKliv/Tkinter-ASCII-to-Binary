@@ -4,4 +4,5 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'circleci/cli/version'
 
-def production_depend
+def production_dependency(spec)
+  spec.add_dependency 'circleci', '~> 2.0.2
