@@ -9,4 +9,5 @@ def production_dependency(spec)
   spec.add_dependency 'faraday', '>= 0.14', '< 2.8'
   spec.add_dependency 'highline', '>= 1.7.8', '< 2.2.0'
   spec.add_dependency 'launchy', '>= 2.4.3', '< 2.6.0'
-  spec.add_dependency 'pusher-clie
+  spec.add_dependency 'pusher-client', '~> 0.6.2'
+  spec.add_dependency 'rugged', 
