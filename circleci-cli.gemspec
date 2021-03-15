@@ -17,4 +17,5 @@ def production_dependency(spec)
 end
 
 def development_dependency(spec)
-  spec.add_
+  spec.add_development_dependency 'bundler'
+  spec.add_dev
