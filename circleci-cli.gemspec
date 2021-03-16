@@ -19,4 +19,4 @@ end
 def development_dependency(spec)
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'codecov'
-  spec.add_deve
+  spec.add_development_dependency 'github_changelog_genera
