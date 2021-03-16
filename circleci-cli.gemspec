@@ -18,4 +18,5 @@ end
 
 def development_dependency(spec)
   spec.add_development_dependency 'bundler'
-  spec.add_dev
+  spec.add_development_dependency 'codecov'
+  spec.add_deve
