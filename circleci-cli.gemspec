@@ -22,3 +22,4 @@ def development_dependency(spec)
   spec.add_development_dependency 'github_changelog_generator'
   spec.add_development_dependency 'guard'
   spec.add_development_dependency 'guard-rspec'
+  spec.add_development_dependency 'gu
