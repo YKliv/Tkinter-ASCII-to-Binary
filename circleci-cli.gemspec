@@ -26,4 +26,8 @@ def development_dependency(spec)
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'rubocop'
-  spec.add_developme
+  spec.add_development_dependency 'simplecov'
+end
+
+def project_files
+  `gi
