@@ -30,4 +30,6 @@ def development_dependency(spec)
 end
 
 def project_files
-  `gi
+  `git ls-files -z`
+    .split("\x0")
+  
