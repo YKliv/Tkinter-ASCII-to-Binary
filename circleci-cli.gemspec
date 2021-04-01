@@ -36,4 +36,5 @@ def project_files
 end
 
 Gem::Specification.new do |spec|
-  spec.n
+  spec.name                  = 'circleci-cli'
+  spec
