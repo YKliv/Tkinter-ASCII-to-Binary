@@ -33,4 +33,7 @@ def project_files
   `git ls-files -z`
     .split("\x0")
     .reject { |f| f.match(%r{^(test|spec|features)/}) }
-en
+end
+
+Gem::Specification.new do |spec|
+  spec.n
