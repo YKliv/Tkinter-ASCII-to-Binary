@@ -37,4 +37,4 @@ end
 
 Gem::Specification.new do |spec|
   spec.name                  = 'circleci-cli'
-  spec
+  spec.version               = CircleCI::CLI::VERSION
