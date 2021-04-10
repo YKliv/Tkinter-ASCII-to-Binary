@@ -42,4 +42,5 @@ Gem::Specification.new do |spec|
   spec.authors               = ['unhappychoice']
   spec.email                 = ['unhappychoice@gmail.com']
 
-  spec.summary                = 'CLI tool for
+  spec.summary                = 'CLI tool for CircleCI'
+  spec.description            = 'A comman
