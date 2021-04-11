@@ -44,4 +44,4 @@ Gem::Specification.new do |spec|
 
   spec.summary                = 'CLI tool for CircleCI'
   spec.description            = 'A command line tool for CircleCI'
-  spec.homepage
+  spec.homepage               = 'https://github.com/unhappychoi
