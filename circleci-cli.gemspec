@@ -46,3 +46,5 @@ Gem::Specification.new do |spec|
   spec.description            = 'A command line tool for CircleCI'
   spec.homepage               = 'https://github.com/unhappychoice/circleci-cli'
   spec.license                = 'MIT'
+  spec.files                  = project_files
+  spec
