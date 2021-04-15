@@ -47,4 +47,5 @@ Gem::Specification.new do |spec|
   spec.homepage               = 'https://github.com/unhappychoice/circleci-cli'
   spec.license                = 'MIT'
   spec.files                  = project_files
-  spec
+  spec.bindir                 = 'exe'
+  spec.ex
