@@ -48,4 +48,4 @@ Gem::Specification.new do |spec|
   spec.license                = 'MIT'
   spec.files                  = project_files
   spec.bindir                 = 'exe'
-  spec.ex
+  spec.executables            = spec.files.grep(%r{^ex
