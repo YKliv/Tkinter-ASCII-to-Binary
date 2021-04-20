@@ -54,4 +54,5 @@ Gem::Specification.new do |spec|
     'rubygems_mfa_required' => 'true'
   }
 
-  production
+  production_dependency spec
+  development_dependency 
