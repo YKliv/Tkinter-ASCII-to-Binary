@@ -55,4 +55,5 @@ Gem::Specification.new do |spec|
   }
 
   production_dependency spec
-  development_dependency 
+  development_dependency spec
+end
