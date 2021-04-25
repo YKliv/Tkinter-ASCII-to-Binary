@@ -3,4 +3,4 @@
 
 require 'circleci_cli'
 
-CircleCI::C
+CircleCI::CLI::Runner.start
