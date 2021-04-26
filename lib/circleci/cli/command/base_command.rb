@@ -5,4 +5,5 @@ module CircleCI
     module Command
       class BaseCommand
         class << self
-      
+          def setup_token
+            CircleCi.config
