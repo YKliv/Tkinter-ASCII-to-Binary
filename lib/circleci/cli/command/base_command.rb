@@ -3,4 +3,6 @@
 module CircleCI
   module CLI
     module Command
-      class
+      class BaseCommand
+        class << self
+      
