@@ -6,4 +6,5 @@ module CircleCI
       class BaseCommand
         class << self
           def setup_token
-            CircleCi.config
+            CircleCi.configure do |config|
+              config.token = ENV['C
