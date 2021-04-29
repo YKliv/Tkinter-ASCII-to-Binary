@@ -7,4 +7,4 @@ module CircleCI
         class << self
           def setup_token
             CircleCi.configure do |config|
-              config.token = ENV['C
+              config.token = ENV['CIRCLE_CI_TOKEN'] || ask('Circle CI token ? :')
