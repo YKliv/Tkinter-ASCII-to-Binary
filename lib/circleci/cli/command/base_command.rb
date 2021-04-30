@@ -11,4 +11,5 @@ module CircleCI
             end
           end
 
-          def pr
+          def project_name(options)
+            if options.pr
