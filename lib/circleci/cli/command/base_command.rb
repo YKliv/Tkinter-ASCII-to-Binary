@@ -14,4 +14,5 @@ module CircleCI
           def project_name(options)
             if options.project
               options.project
-            
+            else
+              say Printer::ProjectPrinter.new(Re
