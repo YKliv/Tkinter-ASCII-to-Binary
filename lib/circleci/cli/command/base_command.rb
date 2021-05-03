@@ -15,4 +15,5 @@ module CircleCI
             if options.project
               options.project
             else
-              say Printer::ProjectPrinter.new(Re
+              say Printer::ProjectPrinter.new(Response::Project.all).to_s
+              ask(
