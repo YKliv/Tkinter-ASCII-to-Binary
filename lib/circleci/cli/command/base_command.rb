@@ -16,4 +16,6 @@ module CircleCI
               options.project
             else
               say Printer::ProjectPrinter.new(Response::Project.all).to_s
-              ask(
+              ask('Input user-name/project-name :')
+            end
+    
