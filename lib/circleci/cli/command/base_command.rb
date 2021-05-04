@@ -18,4 +18,6 @@ module CircleCI
               say Printer::ProjectPrinter.new(Response::Project.all).to_s
               ask('Input user-name/project-name :')
             end
-    
+          end
+
+          def branch_name(opt
