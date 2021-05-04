@@ -20,4 +20,7 @@ module CircleCI
             end
           end
 
-          def branch_name(opt
+          def branch_name(options)
+            if options.all
+              nil
+    
