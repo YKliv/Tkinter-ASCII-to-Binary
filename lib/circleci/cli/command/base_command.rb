@@ -23,4 +23,6 @@ module CircleCI
           def branch_name(options)
             if options.all
               nil
-    
+            else
+              options.branch
+  
