@@ -25,4 +25,7 @@ module CircleCI
               nil
             else
               options.branch
-  
+            end
+          end
+
+          def 
