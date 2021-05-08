@@ -28,4 +28,5 @@ module CircleCI
             end
           end
 
-          def 
+          def build_number(options)
+            option
