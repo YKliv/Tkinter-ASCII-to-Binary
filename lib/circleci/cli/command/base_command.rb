@@ -29,4 +29,6 @@ module CircleCI
           end
 
           def build_number(options)
-            option
+            options.build || ask('Input build number')
+          end
+      
