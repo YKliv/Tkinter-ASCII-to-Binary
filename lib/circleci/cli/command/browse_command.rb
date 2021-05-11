@@ -1,1 +1,5 @@
-# frozen_string_l
+# frozen_string_literal: true
+
+module CircleCI
+  module CLI
+    mod
