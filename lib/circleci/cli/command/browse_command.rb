@@ -2,4 +2,5 @@
 
 module CircleCI
   module CLI
-    mod
+    module Command
+      class BrowseCommand < BaseCommand
