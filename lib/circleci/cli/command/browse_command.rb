@@ -4,3 +4,5 @@ module CircleCI
   module CLI
     module Command
       class BrowseCommand < BaseCommand
+        class << self
+          def run(o
