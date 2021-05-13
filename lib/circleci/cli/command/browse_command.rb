@@ -5,4 +5,6 @@ module CircleCI
     module Command
       class BrowseCommand < BaseCommand
         class << self
-          def run(o
+          def run(options)
+            setup_token
+          
