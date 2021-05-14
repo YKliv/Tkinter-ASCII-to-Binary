@@ -7,4 +7,5 @@ module CircleCI
         class << self
           def run(options)
             setup_token
-          
+            project = project_name(options)
+            number 
