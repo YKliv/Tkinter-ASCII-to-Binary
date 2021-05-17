@@ -9,4 +9,7 @@ module CircleCI
             setup_token
             project = project_name(options)
             number = options.build
-            Launchy.open url(p
+            Launchy.open url(project, number)
+          end
+
+          def url(p
