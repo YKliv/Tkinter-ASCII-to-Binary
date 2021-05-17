@@ -12,4 +12,5 @@ module CircleCI
             Launchy.open url(project, number)
           end
 
-          def url(p
+          def url(project, number)
+            retu
