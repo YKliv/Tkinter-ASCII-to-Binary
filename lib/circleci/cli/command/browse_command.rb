@@ -13,4 +13,4 @@ module CircleCI
           end
 
           def url(project, number)
-            retu
+            return "https://circleci.com/gh/#{project}" unless numbe
