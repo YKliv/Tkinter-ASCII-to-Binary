@@ -13,4 +13,6 @@ module CircleCI
           end
 
           def url(project, number)
-            return "https://circleci.com/gh/#{project}" unless numbe
+            return "https://circleci.com/gh/#{project}" unless number
+
+            "https://circleci.com/gh/#{project}/#{number}
