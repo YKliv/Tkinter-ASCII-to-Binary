@@ -1,3 +1,6 @@
 # frozen_string_literal: true
 
-modul
+module CircleCI
+  module CLI
+    module Command
+   
