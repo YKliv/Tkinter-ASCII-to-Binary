@@ -3,4 +3,5 @@
 module CircleCI
   module CLI
     module Command
-   
+      class BuildCommand < BaseCommand
+        class <
