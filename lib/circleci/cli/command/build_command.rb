@@ -4,4 +4,6 @@ module CircleCI
   module CLI
     module Command
       class BuildCommand < BaseCommand
-        class <
+        class << self
+          def run(options)
+            se
