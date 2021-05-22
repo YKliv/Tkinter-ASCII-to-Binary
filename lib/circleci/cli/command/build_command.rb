@@ -6,4 +6,5 @@ module CircleCI
       class BuildCommand < BaseCommand
         class << self
           def run(options)
-            se
+            setup_token
+            username, reponame = project_nam
