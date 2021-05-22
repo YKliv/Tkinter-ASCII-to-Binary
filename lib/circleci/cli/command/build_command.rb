@@ -7,4 +7,6 @@ module CircleCI
         class << self
           def run(options)
             setup_token
-            username, reponame = project_nam
+            username, reponame = project_name(options).split('/')
+            build =
+              i
