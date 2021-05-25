@@ -9,4 +9,5 @@ module CircleCI
             setup_token
             username, reponame = project_name(options).split('/')
             build =
-              i
+              if options.last
+                get_last_build(u
