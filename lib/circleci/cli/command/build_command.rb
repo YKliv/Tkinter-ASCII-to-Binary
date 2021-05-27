@@ -10,4 +10,6 @@ module CircleCI
             username, reponame = project_name(options).split('/')
             build =
               if options.last
-                get_last_build(u
+                get_last_build(username, reponame)
+              else
+                get_bui
