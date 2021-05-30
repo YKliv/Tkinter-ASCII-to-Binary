@@ -12,4 +12,6 @@ module CircleCI
               if options.last
                 get_last_build(username, reponame)
               else
-                get_bui
+                get_build(username, reponame, options)
+              end
+     
