@@ -14,4 +14,7 @@ module CircleCI
               else
                 get_build(username, reponame, options)
               end
-            say Printer::StepPrinter.new(build.steps, prett
+            say Printer::StepPrinter.new(build.steps, pretty: options.pretty).to_s
+          end
+
+          p
