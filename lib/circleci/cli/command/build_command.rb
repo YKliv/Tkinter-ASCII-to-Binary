@@ -20,3 +20,5 @@ module CircleCI
           private
 
           def get_build(username, reponame, options)
+            number = build_number(options)
+    
