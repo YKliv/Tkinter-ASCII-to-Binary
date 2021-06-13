@@ -24,4 +24,5 @@ module CircleCI
             Response::Build.get(username, reponame, number)
           end
 
-          def get_last_build
+          def get_last_build(username, reponame)
+            build
