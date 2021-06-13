@@ -25,4 +25,4 @@ module CircleCI
           end
 
           def get_last_build(username, reponame)
-            build
+            builds = Response::Build.failed(username, repon
