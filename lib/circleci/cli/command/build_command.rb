@@ -28,4 +28,8 @@ module CircleCI
             builds = Response::Build.failed(username, reponame)
             Response::Build.get(username, reponame, builds.map(&:build_number).max)
           end
- 
+        end
+      end
+    end
+  end
+end
