@@ -3,4 +3,6 @@
 module CircleCI
   module CLI
     module Command
-      class ProjectsCommand
+      class ProjectsCommand < BaseCommand
+        class << self
+          def 
