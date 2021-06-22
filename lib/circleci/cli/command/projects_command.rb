@@ -5,4 +5,6 @@ module CircleCI
     module Command
       class ProjectsCommand < BaseCommand
         class << self
-          def 
+          def run(options)
+            setup_token
+ 
