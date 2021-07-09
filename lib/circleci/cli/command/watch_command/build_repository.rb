@@ -2,4 +2,6 @@
 
 module CircleCI
   module CLI
-    module Co
+    module Command
+      class BuildRepository
+       
