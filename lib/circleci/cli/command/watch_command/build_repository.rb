@@ -4,4 +4,4 @@ module CircleCI
   module CLI
     module Command
       class BuildRepository
-       
+        def initialize(username, reponame, branch: nil, user: n
