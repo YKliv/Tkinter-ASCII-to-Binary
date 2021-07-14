@@ -7,4 +7,6 @@ module CircleCI
         def initialize(username, reponame, branch: nil, user: nil)
           @username = username
           @user = user
-          @reponame =
+          @reponame = reponame
+          @branch = branch
+        
