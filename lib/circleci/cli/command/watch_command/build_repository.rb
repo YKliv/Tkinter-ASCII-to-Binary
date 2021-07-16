@@ -9,4 +9,4 @@ module CircleCI
           @user = user
           @reponame = reponame
           @branch = branch
-        
+          @builds = Response::Build.all(@username, @re
