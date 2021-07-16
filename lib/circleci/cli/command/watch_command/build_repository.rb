@@ -9,4 +9,5 @@ module CircleCI
           @user = user
           @reponame = reponame
           @branch = branch
-          @builds = Response::Build.all(@username, @re
+          @builds = Response::Build.all(@username, @reponame)
+          @build_numbers_shown = @builds.select(&:f
