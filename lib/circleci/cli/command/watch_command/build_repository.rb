@@ -10,4 +10,7 @@ module CircleCI
           @reponame = reponame
           @branch = branch
           @builds = Response::Build.all(@username, @reponame)
-          @build_numbers_shown = @builds.select(&:f
+          @build_numbers_shown = @builds.select(&:finished?).map(&:build_number)
+        end
+
+    
