@@ -13,4 +13,6 @@ module CircleCI
           @build_numbers_shown = @builds.select(&:finished?).map(&:build_number)
         end
 
-    
+        def update
+          response = if @branch
+        
