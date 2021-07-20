@@ -15,4 +15,6 @@ module CircleCI
 
         def update
           response = if @branch
-                       Response::Build.branch(@username, @rep
+                       Response::Build.branch(@username, @reponame, @branch)
+                     else
+         
