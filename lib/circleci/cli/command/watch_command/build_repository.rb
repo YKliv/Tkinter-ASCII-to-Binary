@@ -17,4 +17,4 @@ module CircleCI
           response = if @branch
                        Response::Build.branch(@username, @reponame, @branch)
                      else
-         
+                       Response::Build.all(@username, @reponame)
