@@ -15,4 +15,4 @@ module CircleCI
 
         def update
           response = if @branch
-        
+                       Response::Build.branch(@username, @rep
