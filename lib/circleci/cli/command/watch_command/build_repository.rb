@@ -23,4 +23,5 @@ module CircleCI
           @builds = (response + @builds).uniq(&:build_number)
         end
 
-        def mark_as_shown(bui
+        def mark_as_shown(build_number)
+          @build_numbers_shown = (@build_numb
