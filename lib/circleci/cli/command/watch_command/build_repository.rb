@@ -20,4 +20,4 @@ module CircleCI
                        Response::Build.all(@username, @reponame)
                      end
 
-         
+          @builds = (response + @builds).uniq(&:build_number
