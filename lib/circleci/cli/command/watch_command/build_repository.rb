@@ -20,4 +20,7 @@ module CircleCI
                        Response::Build.all(@username, @reponame)
                      end
 
-          @builds = (response + @builds).uniq(&:build_number
+          @builds = (response + @builds).uniq(&:build_number)
+        end
+
+        def mark_as_shown(bui
