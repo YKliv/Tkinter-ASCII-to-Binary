@@ -18,3 +18,6 @@ module CircleCI
                        Response::Build.branch(@username, @reponame, @branch)
                      else
                        Response::Build.all(@username, @reponame)
+                     end
+
+         
