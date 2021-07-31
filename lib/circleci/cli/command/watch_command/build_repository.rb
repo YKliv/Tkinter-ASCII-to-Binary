@@ -24,4 +24,6 @@ module CircleCI
         end
 
         def mark_as_shown(build_number)
-          @build_numbers_shown = (@build_numb
+          @build_numbers_shown = (@build_numbers_shown + [build_number]).uniq
+        end
+
