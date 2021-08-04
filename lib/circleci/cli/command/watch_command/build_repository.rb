@@ -27,3 +27,6 @@ module CircleCI
           @build_numbers_shown = (@build_numbers_shown + [build_number]).uniq
         end
 
+        def builds_to_show
+          @builds
+            .reject { |
