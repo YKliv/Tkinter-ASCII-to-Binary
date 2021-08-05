@@ -29,4 +29,4 @@ module CircleCI
 
         def builds_to_show
           @builds
-            .reject { |
+            .reject { |build| @build_numbers_shown.include?(build.build_numb
