@@ -30,4 +30,5 @@ module CircleCI
         def builds_to_show
           @builds
             .reject { |build| @build_numbers_shown.include?(build.build_number) }
-            .select { |build| @branch.nil? 
+            .select { |build| @branch.nil? || build.branch.to_s == @branch.to_s }
+        
