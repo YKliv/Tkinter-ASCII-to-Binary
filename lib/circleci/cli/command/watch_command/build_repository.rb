@@ -31,4 +31,4 @@ module CircleCI
           @builds
             .reject { |build| @build_numbers_shown.include?(build.build_number) }
             .select { |build| @branch.nil? || build.branch.to_s == @branch.to_s }
-        
+            .select { |build| @user.nil? || build.user.to_s ==
