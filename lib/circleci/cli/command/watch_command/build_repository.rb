@@ -32,4 +32,7 @@ module CircleCI
             .reject { |build| @build_numbers_shown.include?(build.build_number) }
             .select { |build| @branch.nil? || build.branch.to_s == @branch.to_s }
             .select { |build| @user.nil? || build.user.to_s == @user.to_s }
-            .sort_by(&:build
+            .sort_by(&:build_number)
+        end
+
+        def build_for(bu
