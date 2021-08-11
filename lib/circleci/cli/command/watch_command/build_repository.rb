@@ -35,4 +35,5 @@ module CircleCI
             .sort_by(&:build_number)
         end
 
-        def build_for(bu
+        def build_for(build_number)
+          @builds.find { |build| build.buil
