@@ -36,4 +36,6 @@ module CircleCI
         end
 
         def build_for(build_number)
-          @builds.find { |build| build.buil
+          @builds.find { |build| build.build_number == build_number }
+        end
+      en
