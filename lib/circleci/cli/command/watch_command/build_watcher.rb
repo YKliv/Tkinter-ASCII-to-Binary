@@ -2,4 +2,8 @@
 
 module CircleCI
   module CLI
-    module Comman
+    module Command
+      class BuildWatcher
+        attr_reader :build
+
+ 
