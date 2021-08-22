@@ -6,4 +6,5 @@ module CircleCI
       class BuildWatcher
         attr_reader :build
 
- 
+        def initialize(build, verbose: false)
+   
