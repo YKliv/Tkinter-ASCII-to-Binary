@@ -7,4 +7,5 @@ module CircleCI
         attr_reader :build
 
         def initialize(build, verbose: false)
-   
+          @build = build
+          @verbose = verbose
