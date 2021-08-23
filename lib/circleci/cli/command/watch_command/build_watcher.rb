@@ -9,3 +9,4 @@ module CircleCI
         def initialize(build, verbose: false)
           @build = build
           @verbose = verbose
+          @messages = Hash.new { |h, k| h[k] = [] 
