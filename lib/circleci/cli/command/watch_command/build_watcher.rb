@@ -14,4 +14,7 @@ module CircleCI
 
         def start
           bind_event_handling @build.channel_name
-          not
+          notify_started
+        end
+
+        def stop(status
