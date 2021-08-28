@@ -17,4 +17,5 @@ module CircleCI
           notify_started
         end
 
-        def stop(status
+        def stop(status)
+          client.unsubscribe("#{@build.channel_n
