@@ -13,4 +13,5 @@ module CircleCI
         end
 
         def start
-          bind_even
+          bind_event_handling @build.channel_name
+          not
