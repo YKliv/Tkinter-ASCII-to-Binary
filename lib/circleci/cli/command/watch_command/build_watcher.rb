@@ -24,4 +24,4 @@ module CircleCI
 
         private
 
-        def bind
+        def bind_event_handling(channel) # rubocop:disable Metrics/Abc
