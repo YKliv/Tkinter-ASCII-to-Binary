@@ -25,4 +25,6 @@ module CircleCI
         private
 
         def bind_event_handling(channel) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
-          client.bind_event_json(channel, 'newAction') do |j
+          client.bind_event_json(channel, 'newAction') do |json|
+            if @verbose
+              print_bordered
