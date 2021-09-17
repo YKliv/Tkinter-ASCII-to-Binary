@@ -29,4 +29,5 @@ module CircleCI
             if @verbose
               print_bordered json['log']['name']
             else
-     
+              print json['log']['name']
+   
