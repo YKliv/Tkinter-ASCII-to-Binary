@@ -30,4 +30,7 @@ module CircleCI
               print_bordered json['log']['name']
             else
               print json['log']['name']
-   
+            end
+          end
+
+          client.bind_event
