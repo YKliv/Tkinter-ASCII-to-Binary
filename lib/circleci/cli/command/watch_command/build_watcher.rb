@@ -39,4 +39,6 @@ module CircleCI
             else
               @messages[json['step']] << json['out']['message']
             end
-         
+          end
+
+          client.bind_event_json(channel, 'u
