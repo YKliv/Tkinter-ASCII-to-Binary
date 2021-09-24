@@ -37,4 +37,6 @@ module CircleCI
             if @verbose
               Thor::Shell::Basic.new.say(json['out']['message'], nil, false)
             else
-              @messages[json['step']] << json
+              @messages[json['step']] << json['out']['message']
+            end
+         
