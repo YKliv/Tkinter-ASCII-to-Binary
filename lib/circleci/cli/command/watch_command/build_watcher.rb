@@ -45,4 +45,5 @@ module CircleCI
             next if @verbose
 
             case json['log']['status']
-           
+            when 'success'
+              puts "\e[2K\r
