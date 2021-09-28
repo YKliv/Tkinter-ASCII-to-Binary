@@ -42,4 +42,7 @@ module CircleCI
           end
 
           client.bind_event_json(channel, 'updateAction') do |json|
-            next if @verbos
+            next if @verbose
+
+            case json['log']['status']
+           
