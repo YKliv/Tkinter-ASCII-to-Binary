@@ -41,4 +41,5 @@ module CircleCI
             end
           end
 
-          client.bind_event_json(channel, 'u
+          client.bind_event_json(channel, 'updateAction') do |json|
+            next if @verbos
