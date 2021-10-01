@@ -48,4 +48,5 @@ module CircleCI
             when 'success'
               puts "\e[2K\r#{Printer.colorize_green(json['log']['name'])}"
             when 'failed'
-              puts "\e[2K\r#{Printer.colo
+              puts "\e[2K\r#{Printer.colorize_red(json['log']['name'])}"
+            
