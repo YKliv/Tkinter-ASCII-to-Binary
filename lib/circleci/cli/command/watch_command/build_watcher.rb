@@ -47,4 +47,5 @@ module CircleCI
             case json['log']['status']
             when 'success'
               puts "\e[2K\r#{Printer.colorize_green(json['log']['name'])}"
-           
+            when 'failed'
+              puts "\e[2K\r#{Printer.colo
