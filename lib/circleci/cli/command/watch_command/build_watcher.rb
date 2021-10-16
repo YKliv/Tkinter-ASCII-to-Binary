@@ -50,4 +50,8 @@ module CircleCI
             when 'failed'
               puts "\e[2K\r#{Printer.colorize_red(json['log']['name'])}"
               @messages[json['step']].each(&method(:say))
-            en
+            end
+          end
+        end
+
+        def notif
