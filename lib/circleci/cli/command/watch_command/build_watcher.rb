@@ -54,4 +54,5 @@ module CircleCI
           end
         end
 
-        def notif
+        def notify_started
+          say Printer::BuildPrinter.head
