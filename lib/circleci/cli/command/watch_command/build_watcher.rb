@@ -55,4 +55,6 @@ module CircleCI
         end
 
         def notify_started
-          say Printer::BuildPrinter.head
+          say Printer::BuildPrinter.header_for(
+            @build,
+            "👀 Start wat
