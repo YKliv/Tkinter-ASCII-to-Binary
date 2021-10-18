@@ -57,4 +57,8 @@ module CircleCI
         def notify_started
           say Printer::BuildPrinter.header_for(
             @build,
-            "👀 Start watching #{@build.project_name} ##{@build.build_
+            "👀 Start watching #{@build.project_name} ##{@build.build_number}"
+          )
+        end
+
+        d
