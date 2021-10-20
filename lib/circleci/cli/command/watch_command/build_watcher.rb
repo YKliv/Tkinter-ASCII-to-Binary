@@ -62,4 +62,6 @@ module CircleCI
         end
 
         def notify_stopped(status)
-          text = case s
+          text = case status
+                 when 'success'
+    
