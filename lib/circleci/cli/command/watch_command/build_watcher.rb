@@ -64,4 +64,6 @@ module CircleCI
         def notify_stopped(status)
           text = case status
                  when 'success'
-                   Printer.colorize_green("🎉 #{@build.project_name} ##{@build.build_number} has succeed
+                   Printer.colorize_green("🎉 #{@build.project_name} ##{@build.build_number} has succeeded!")
+                 when 'failed'
+         
