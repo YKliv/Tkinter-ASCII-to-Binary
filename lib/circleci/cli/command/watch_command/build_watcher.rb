@@ -66,4 +66,7 @@ module CircleCI
                  when 'success'
                    Printer.colorize_green("🎉 #{@build.project_name} ##{@build.build_number} has succeeded!")
                  when 'failed'
-                   Printer.colorize_red("😥 #{@build.project_name} ##{@build.build_numb
+                   Printer.colorize_red("😥 #{@build.project_name} ##{@build.build_number} has failed...")
+                 end
+
+          @ver
