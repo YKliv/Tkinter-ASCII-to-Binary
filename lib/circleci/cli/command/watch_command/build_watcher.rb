@@ -69,4 +69,7 @@ module CircleCI
                    Printer.colorize_red("😥 #{@build.project_name} ##{@build.build_number} has failed...")
                  end
 
-          @ver
+          @verbose ? print_bordered(text) : say(text)
+        end
+
+   
