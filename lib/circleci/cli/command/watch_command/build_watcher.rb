@@ -72,4 +72,5 @@ module CircleCI
           @verbose ? print_bordered(text) : say(text)
         end
 
-   
+        def print_bordered(text)
+          say Terminal::
