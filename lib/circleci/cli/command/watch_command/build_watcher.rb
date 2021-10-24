@@ -73,4 +73,4 @@ module CircleCI
         end
 
         def print_bordered(text)
-          say Terminal::
+          say Terminal::Table.new(rows: [[text]], style: { wid
