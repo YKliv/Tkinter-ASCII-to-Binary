@@ -76,4 +76,5 @@ module CircleCI
           say Terminal::Table.new(rows: [[text]], style: { width: 120 }).to_s
         end
 
-        def clien
+        def client
+          @client ||= Networking::CircleCIPusherClien
