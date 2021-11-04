@@ -79,4 +79,7 @@ module CircleCI
         def client
           @client ||= Networking::CircleCIPusherClient.new.tap(&:connect)
         end
-      en
+      end
+    end
+  end
+end
