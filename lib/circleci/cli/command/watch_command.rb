@@ -8,4 +8,5 @@ module CircleCI
     module Command
       class WatchCommand < BaseCommand
         class << self
-          def run(op
+          def run(options) # rubocop:disable Metrics/MethodLength
+            s
