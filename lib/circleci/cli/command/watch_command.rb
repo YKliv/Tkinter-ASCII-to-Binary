@@ -5,4 +5,5 @@ require 'circleci/cli/command/watch_command/build_watcher'
 
 module CircleCI
   module CLI
-    modu
+    module Command
+      class WatchCommand < Bas
