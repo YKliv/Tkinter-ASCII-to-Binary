@@ -6,4 +6,6 @@ require 'circleci/cli/command/watch_command/build_watcher'
 module CircleCI
   module CLI
     module Command
-      class WatchCommand < Bas
+      class WatchCommand < BaseCommand
+        class << self
+          def run(op
