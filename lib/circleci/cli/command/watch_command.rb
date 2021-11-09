@@ -9,4 +9,6 @@ module CircleCI
       class WatchCommand < BaseCommand
         class << self
           def run(options) # rubocop:disable Metrics/MethodLength
-            s
+            setup_token
+
+            username, reponame = 
