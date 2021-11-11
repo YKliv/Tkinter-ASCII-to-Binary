@@ -12,4 +12,5 @@ module CircleCI
             setup_token
 
             username, reponame = project_name(options).split('/')
-            @options = opti
+            @options = options
+            @repository = BuildReposi
