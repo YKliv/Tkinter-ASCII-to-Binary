@@ -16,4 +16,6 @@ module CircleCI
             @repository = BuildRepository.new(
               username,
               reponame,
-              branch: branch_name(options)
+              branch: branch_name(options),
+              user: options.user
+            )
