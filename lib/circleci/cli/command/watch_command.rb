@@ -13,4 +13,6 @@ module CircleCI
 
             username, reponame = project_name(options).split('/')
             @options = options
-            @repository = BuildReposi
+            @repository = BuildRepository.new(
+              username,
+              repon
