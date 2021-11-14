@@ -19,4 +19,5 @@ module CircleCI
               branch: branch_name(options),
               user: options.user
             )
-            @client = Networking::CircleCIP
+            @client = Networking::CircleCIPusherClient.new.tap(&:connect)
+            @buil
