@@ -20,4 +20,8 @@ module CircleCI
               user: options.user
             )
             @client = Networking::CircleCIPusherClient.new.tap(&:connect)
-            @buil
+            @build_watcher = nil
+
+            bind_status_event
+
+      
