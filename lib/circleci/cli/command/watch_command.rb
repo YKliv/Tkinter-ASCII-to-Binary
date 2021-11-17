@@ -26,4 +26,7 @@ module CircleCI
 
             loop do
               stop_existing_watcher_if_needed
-              start_watcher_if_need
+              start_watcher_if_needed
+              sleep 1
+            end
+          rescu
