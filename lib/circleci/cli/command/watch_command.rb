@@ -29,4 +29,6 @@ module CircleCI
               start_watcher_if_needed
               sleep 1
             end
-          rescu
+          rescue Interrupt
+            say 'Exited'
+        
