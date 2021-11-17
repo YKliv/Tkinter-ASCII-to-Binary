@@ -25,4 +25,5 @@ module CircleCI
             bind_status_event
 
             loop do
-              stop_existing_watcher_if_nee
+              stop_existing_watcher_if_needed
+              start_watcher_if_need
