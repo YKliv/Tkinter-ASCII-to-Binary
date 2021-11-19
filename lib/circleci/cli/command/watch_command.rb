@@ -36,4 +36,4 @@ module CircleCI
           private
 
           def bind_status_event
-            @client.bind("private-#{Res
+            @client.bind("private-#{Response::Account.me.pusher_id}", 'call') { @repository.upda
