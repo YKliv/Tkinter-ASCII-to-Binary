@@ -31,4 +31,8 @@ module CircleCI
             end
           rescue Interrupt
             say 'Exited'
-        
+          end
+
+          private
+
+          def bind_status
