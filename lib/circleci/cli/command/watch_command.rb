@@ -35,4 +35,5 @@ module CircleCI
 
           private
 
-          def bind_status
+          def bind_status_event
+            @client.bind("private-#{Res
