@@ -39,4 +39,5 @@ module CircleCI
             @client.bind("private-#{Response::Account.me.pusher_id}", 'call') { @repository.update }
           end
 
-          def stop_ex
+          def stop_existing_watcher_if_needed
+            return if @bu
