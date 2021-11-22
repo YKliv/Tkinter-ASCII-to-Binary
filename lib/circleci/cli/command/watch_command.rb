@@ -36,4 +36,7 @@ module CircleCI
           private
 
           def bind_status_event
-            @client.bind("private-#{Response::Account.me.pusher_id}", 'call') { @repository.upda
+            @client.bind("private-#{Response::Account.me.pusher_id}", 'call') { @repository.update }
+          end
+
+          def stop_ex
