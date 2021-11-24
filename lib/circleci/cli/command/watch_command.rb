@@ -42,4 +42,5 @@ module CircleCI
           def stop_existing_watcher_if_needed
             return if @build_watcher.nil?
 
-            build = @repository.build_for(@build
+            build = @repository.build_for(@build_watcher.build.build_number)
+            return if buil
