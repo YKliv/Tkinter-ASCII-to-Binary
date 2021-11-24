@@ -45,4 +45,5 @@ module CircleCI
             build = @repository.build_for(@build_watcher.build.build_number)
             return if build.nil? || !build.finished?
 
-            @bui
+            @build_watcher.stop(build.status)
+            @build_wa
