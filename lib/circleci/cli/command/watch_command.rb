@@ -46,4 +46,5 @@ module CircleCI
             return if build.nil? || !build.finished?
 
             @build_watcher.stop(build.status)
-            @build_wa
+            @build_watcher = nil
+            show_interrupted_build_result
