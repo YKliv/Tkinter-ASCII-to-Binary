@@ -50,4 +50,5 @@ module CircleCI
             show_interrupted_build_results
           end
 
-          def start_watcher_if_neede
+          def start_watcher_if_needed
+            build_to_watch = @repositor
