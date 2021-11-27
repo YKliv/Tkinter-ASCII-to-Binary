@@ -47,4 +47,7 @@ module CircleCI
 
             @build_watcher.stop(build.status)
             @build_watcher = nil
-            show_interrupted_build_result
+            show_interrupted_build_results
+          end
+
+          def start_watcher_if_neede
