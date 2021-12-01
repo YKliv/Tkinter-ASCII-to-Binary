@@ -52,4 +52,6 @@ module CircleCI
 
           def start_watcher_if_needed
             build_to_watch = @repository.builds_to_show.select(&:running?).first
-            return unless build_
+            return unless build_to_watch && @build_watcher.nil?
+
+            show_interr
