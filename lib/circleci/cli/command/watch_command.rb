@@ -51,4 +51,4 @@ module CircleCI
           end
 
           def start_watcher_if_needed
-            build_to_watch = @repositor
+            build_to_watch = @repository.builds_to_show.select(&:running?)
