@@ -55,4 +55,5 @@ module CircleCI
             return unless build_to_watch && @build_watcher.nil?
 
             show_interrupted_build_results
-            @repository.mark_as_s
+            @repository.mark_as_shown(build_to_watch.build_number)
+         
