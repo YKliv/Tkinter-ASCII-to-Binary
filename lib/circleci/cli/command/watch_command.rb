@@ -54,4 +54,5 @@ module CircleCI
             build_to_watch = @repository.builds_to_show.select(&:running?).first
             return unless build_to_watch && @build_watcher.nil?
 
-            show_interr
+            show_interrupted_build_results
+            @repository.mark_as_s
