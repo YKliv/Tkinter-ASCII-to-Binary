@@ -60,4 +60,4 @@ module CircleCI
             @build_watcher.start
           end
 
-          def show_interrup
+          def show_interrupted_build_results # rubocop:disable Metrics/AbcSi
