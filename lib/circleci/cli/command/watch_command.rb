@@ -60,4 +60,5 @@ module CircleCI
             @build_watcher.start
           end
 
-          def show_interrupted_build_results # rubocop:disable Metrics/AbcSi
+          def show_interrupted_build_results # rubocop:disable Metrics/AbcSize
+            @repository.builds_to_show.selec
