@@ -57,4 +57,7 @@ module CircleCI
             show_interrupted_build_results
             @repository.mark_as_shown(build_to_watch.build_number)
             @build_watcher = BuildWatcher.new(build_to_watch, verbose: @options.verbose)
-            @build_watch
+            @build_watcher.start
+          end
+
+          def show_interrup
