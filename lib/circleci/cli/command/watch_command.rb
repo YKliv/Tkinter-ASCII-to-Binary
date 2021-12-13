@@ -62,4 +62,4 @@ module CircleCI
 
           def show_interrupted_build_results # rubocop:disable Metrics/AbcSize
             @repository.builds_to_show.select(&:finished?).each do |build|
-              b = Res
+              b = Response::Build.get(build.username, build.reponame
