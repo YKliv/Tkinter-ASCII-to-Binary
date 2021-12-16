@@ -69,3 +69,6 @@ module CircleCI
               @repository.mark_as_shown(b.build_number)
             end
           end
+
+          def print_bordered(text)
+            say Te
