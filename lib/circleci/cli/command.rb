@@ -5,4 +5,5 @@ require 'circleci/cli/command/projects_command'
 require 'circleci/cli/command/builds_command'
 require 'circleci/cli/command/build_command'
 require 'circleci/cli/command/browse_command'
-require 'circleci/cli/command
+require 'circleci/cli/command/watch_command'
+require 'circleci/cli/command/re
