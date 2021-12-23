@@ -6,4 +6,5 @@ require 'circleci/cli/command/builds_command'
 require 'circleci/cli/command/build_command'
 require 'circleci/cli/command/browse_command'
 require 'circleci/cli/command/watch_command'
-require 'circleci/cli/command/re
+require 'circleci/cli/command/retry_command'
+require 'circleci/cli/command/cance
