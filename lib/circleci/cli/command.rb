@@ -7,4 +7,8 @@ require 'circleci/cli/command/build_command'
 require 'circleci/cli/command/browse_command'
 require 'circleci/cli/command/watch_command'
 require 'circleci/cli/command/retry_command'
-require 'circleci/cli/command/cance
+require 'circleci/cli/command/cancel_command'
+
+module CircleCI
+  module CLI
+    module Command; end
