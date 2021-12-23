@@ -12,3 +12,5 @@ require 'circleci/cli/command/cancel_command'
 module CircleCI
   module CLI
     module Command; end
+  end
+end
