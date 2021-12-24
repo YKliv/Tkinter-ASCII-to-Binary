@@ -43,3 +43,15 @@ module CircleCI
             { socket_id: socket_id, channel_name: channel.name }
           )
           JSON.parse(res.body)['auth']
+        end
+
+        def connection
+          Faraday.new(url: 'https://circleci.com') do |f|
+            f.request :url_encoded
+            f.adapter Faraday.default_adapter
+          end
+        end
+      end
+    end
+  end
+end
