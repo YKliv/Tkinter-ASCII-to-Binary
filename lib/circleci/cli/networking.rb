@@ -1,3 +1,6 @@
 # frozen_string_literal: true
 
-require 'c
+require 'circleci/cli/networking/pusher_client'
+
+module CircleCI
+  modul
