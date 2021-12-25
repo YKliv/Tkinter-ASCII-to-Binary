@@ -33,3 +33,7 @@ module CircleCI
             rows: @projects.map(&:information)
           ).to_s
         end
+      end
+    end
+  end
+end
