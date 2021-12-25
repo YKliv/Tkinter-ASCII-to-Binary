@@ -3,4 +3,7 @@
 require 'circleci/cli/networking/pusher_client'
 
 module CircleCI
-  modul
+  module CLI
+    module Networking; end
+  end
+end
