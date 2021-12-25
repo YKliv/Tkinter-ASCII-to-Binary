@@ -68,3 +68,9 @@ module CircleCI
         def pad_column_by_space(column, max_widths, index)
           column_string = column.to_s
           spaces = ' ' * (max_widths[index] - column_string.size)
+          column_string + spaces
+        end
+      end
+    end
+  end
+end
