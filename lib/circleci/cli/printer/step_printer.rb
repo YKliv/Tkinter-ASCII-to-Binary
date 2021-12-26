@@ -6,4 +6,7 @@ module CircleCI
       class StepPrinter
         def initialize(steps, pretty: true)
           @steps = steps
-          @pr
+          @pretty = pretty
+        end
+
+        def to_s #
