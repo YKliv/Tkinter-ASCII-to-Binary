@@ -1,3 +1,6 @@
 # frozen_string_literal: true
 
-module Circl
+module CircleCI
+  module CLI
+    module Printer
+      class StepPrint
