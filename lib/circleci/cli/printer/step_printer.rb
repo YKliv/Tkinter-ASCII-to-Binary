@@ -3,4 +3,5 @@
 module CircleCI
   module CLI
     module Printer
-      class StepPrint
+      class StepPrinter
+        def initialize(steps, pretty: tr
