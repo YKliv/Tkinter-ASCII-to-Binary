@@ -9,4 +9,4 @@ module CircleCI
           @pretty = pretty
         end
 
-        def to_s #
+        def to_s # rubocop:disable Metrics/AbcSize, Metrics/MethodLen
