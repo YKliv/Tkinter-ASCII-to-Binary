@@ -9,4 +9,6 @@ module CircleCI
           @pretty = pretty
         end
 
-        def to_s # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedC
+        def to_s # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
+          if @pretty
+            Terminal::
