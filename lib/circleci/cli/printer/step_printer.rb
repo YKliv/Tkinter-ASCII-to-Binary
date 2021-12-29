@@ -14,4 +14,5 @@ module CircleCI
             Terminal::Table.new do |t|
               @steps
                 .group_by(&:type)
-        
+                .each do |key, steps|
+                t
