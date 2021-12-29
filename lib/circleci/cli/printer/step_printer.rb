@@ -11,4 +11,5 @@ module CircleCI
 
         def to_s # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
           if @pretty
-            Terminal::
+            Terminal::Table.new do |t|
+              @st
