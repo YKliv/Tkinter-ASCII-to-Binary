@@ -15,4 +15,5 @@ module CircleCI
               @steps
                 .group_by(&:type)
                 .each do |key, steps|
-                t
+                t << :separator
+                t << [{ value: Pri
