@@ -17,4 +17,6 @@ module CircleCI
                 .each do |key, steps|
                 t << :separator
                 t << [{ value: Printer.colorize_green(key), alignment: :center, colspan: 2 }]
-                steps.each { |
+                steps.each { |s| print_actions(t, s) }
+              end
+            end.to_s
