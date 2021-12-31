@@ -16,4 +16,4 @@ module CircleCI
                 .group_by(&:type)
                 .each do |key, steps|
                 t << :separator
-                t << [{ value: Pri
+                t << [{ value: Printer.colorize_green(key), alignment: :center, 
