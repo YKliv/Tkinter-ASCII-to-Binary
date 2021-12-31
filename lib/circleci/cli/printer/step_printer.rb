@@ -20,3 +20,5 @@ module CircleCI
                 steps.each { |s| print_actions(t, s) }
               end
             end.to_s
+          else
+            @steps.group_by(&:t
