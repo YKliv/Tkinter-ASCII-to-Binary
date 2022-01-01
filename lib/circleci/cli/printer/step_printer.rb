@@ -22,4 +22,5 @@ module CircleCI
             end.to_s
           else
             @steps.group_by(&:type).map do |_, steps|
-              steps.m
+              steps.map do |step|
+                step.acti
