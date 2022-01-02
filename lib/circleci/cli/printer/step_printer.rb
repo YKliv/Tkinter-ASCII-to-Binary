@@ -24,4 +24,4 @@ module CircleCI
             @steps.group_by(&:type).map do |_, steps|
               steps.map do |step|
                 step.actions.map do |a|
-                  "#{colorize_by_sta
+                  "#{colorize_by_status(a.name.slice(0..120), a.status)}\n#{"#{a.l
