@@ -23,4 +23,5 @@ module CircleCI
           else
             @steps.group_by(&:type).map do |_, steps|
               steps.map do |step|
-                step.acti
+                step.actions.map do |a|
+                  "#{colorize_by_sta
