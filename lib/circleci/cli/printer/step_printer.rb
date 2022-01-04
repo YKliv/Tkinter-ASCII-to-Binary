@@ -31,4 +31,6 @@ module CircleCI
           end
         end
 
- 
+        private
+
+        def colorize_by_status(strin
