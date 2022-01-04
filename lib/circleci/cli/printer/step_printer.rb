@@ -33,4 +33,6 @@ module CircleCI
 
         private
 
-        def colorize_by_status(strin
+        def colorize_by_status(string, status)
+          case status
+       
