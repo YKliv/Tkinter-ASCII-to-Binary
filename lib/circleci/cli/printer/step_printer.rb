@@ -35,4 +35,4 @@ module CircleCI
 
         def colorize_by_status(string, status)
           case status
-       
+          when 'success', 'fixed' then Printer.colorize
