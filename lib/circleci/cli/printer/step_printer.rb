@@ -38,4 +38,5 @@ module CircleCI
           when 'success', 'fixed' then Printer.colorize_green(string)
           when 'canceled' then Printer.colorize_yellow(string)
           when 'failed', 'timedout' then Printer.colorize_red(string)
-          when 'no_tests', 'not_run' then 
+          when 'no_tests', 'not_run' then Printer.colorize_light_black(string)
+          else string
