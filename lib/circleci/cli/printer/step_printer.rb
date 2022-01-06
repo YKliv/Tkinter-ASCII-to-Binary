@@ -37,4 +37,4 @@ module CircleCI
           case status
           when 'success', 'fixed' then Printer.colorize_green(string)
           when 'canceled' then Printer.colorize_yellow(string)
-          when 'faile
+          when 'failed', 'timedout' then Printer.colorize_red(stri
