@@ -40,3 +40,7 @@ module CircleCI
           when 'failed', 'timedout' then Printer.colorize_red(string)
           when 'no_tests', 'not_run' then Printer.colorize_light_black(string)
           else string
+          end
+        end
+
+        def format_time(ti
