@@ -43,4 +43,7 @@ module CircleCI
           end
         end
 
-        def format_time(ti
+        def format_time(time)
+          return '' unless time
+
+          minu
