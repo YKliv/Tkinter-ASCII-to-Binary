@@ -46,4 +46,5 @@ module CircleCI
         def format_time(time)
           return '' unless time
 
-          minu
+          minute = format('%<time>02d', time: time / 1000 / 60)
+ 
