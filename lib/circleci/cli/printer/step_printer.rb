@@ -51,4 +51,6 @@ module CircleCI
           "#{minute}:#{second}"
         end
 
-        def print_actions(table, step
+        def print_actions(table, step)
+          table << :separator
+   
