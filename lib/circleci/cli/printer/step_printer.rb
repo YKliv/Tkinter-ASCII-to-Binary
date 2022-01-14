@@ -53,4 +53,5 @@ module CircleCI
 
         def print_actions(table, step)
           table << :separator
-   
+          step.actions.each do |a|
+            table << [
