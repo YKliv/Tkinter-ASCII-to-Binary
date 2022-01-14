@@ -48,4 +48,7 @@ module CircleCI
 
           minute = format('%<time>02d', time: time / 1000 / 60)
           second = format('%<time>02d', time: (time / 1000) % 60)
-          "#{minute}:#{second}
+          "#{minute}:#{second}"
+        end
+
+        def print_actions(table, step
