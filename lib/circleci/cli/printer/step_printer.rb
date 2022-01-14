@@ -47,4 +47,5 @@ module CircleCI
           return '' unless time
 
           minute = format('%<time>02d', time: time / 1000 / 60)
-          second = format('%<time>02d', time: (t
+          second = format('%<time>02d', time: (time / 1000) % 60)
+          "#{minute}:#{second}
