@@ -55,3 +55,4 @@ module CircleCI
           table << :separator
           step.actions.each do |a|
             table << [
+              colorize_by_status(a.name.slice(0..120), a.st
