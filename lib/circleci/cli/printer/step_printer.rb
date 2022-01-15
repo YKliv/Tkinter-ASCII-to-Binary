@@ -56,4 +56,6 @@ module CircleCI
           step.actions.each do |a|
             table << [
               colorize_by_status(a.name.slice(0..120), a.status),
-              format_time(a.run_time_mill
+              format_time(a.run_time_millis)
+            ]
+            table << [{ value: a.log, alig
