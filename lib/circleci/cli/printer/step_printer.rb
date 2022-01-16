@@ -58,4 +58,4 @@ module CircleCI
               colorize_by_status(a.name.slice(0..120), a.status),
               format_time(a.run_time_millis)
             ]
-            table << [{ value: a.log, alig
+            table << [{ value: a.log, alignment: :left, colspan: 2 }] if a.failed? && a.
