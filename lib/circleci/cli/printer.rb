@@ -2,4 +2,8 @@
 
 require 'circleci/cli/printer/project_printer'
 require 'circleci/cli/printer/build_printer'
-require 'circleci/
+require 'circleci/cli/printer/step_printer'
+
+module CircleCI
+  module CLI
+    m
