@@ -8,4 +8,5 @@ module CircleCI
   module CLI
     module Printer
       class << self
-      
+        def colorize_red(string)
+          coloriz
