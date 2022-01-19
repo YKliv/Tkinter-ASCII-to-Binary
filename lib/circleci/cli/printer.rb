@@ -6,4 +6,6 @@ require 'circleci/cli/printer/step_printer'
 
 module CircleCI
   module CLI
-    m
+    module Printer
+      class << self
+      
