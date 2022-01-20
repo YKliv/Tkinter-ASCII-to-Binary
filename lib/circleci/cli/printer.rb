@@ -12,4 +12,5 @@ module CircleCI
           colorize(string, '0;31;49')
         end
 
-        def col
+        def colorize_green(string)
+          colorize(str
