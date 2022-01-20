@@ -9,4 +9,7 @@ module CircleCI
     module Printer
       class << self
         def colorize_red(string)
-          coloriz
+          colorize(string, '0;31;49')
+        end
+
+        def col
