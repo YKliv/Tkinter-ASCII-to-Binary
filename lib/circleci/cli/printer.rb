@@ -16,4 +16,6 @@ module CircleCI
           colorize(string, '0;32;49')
         end
 
-        def colorize_yellow(
+        def colorize_yellow(string)
+          colorize(string, '0;33;49')
+       
