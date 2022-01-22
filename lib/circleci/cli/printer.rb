@@ -18,4 +18,6 @@ module CircleCI
 
         def colorize_yellow(string)
           colorize(string, '0;33;49')
-       
+        end
+
+        def colorize_light_black(s
