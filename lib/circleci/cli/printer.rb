@@ -20,4 +20,5 @@ module CircleCI
           colorize(string, '0;33;49')
         end
 
-        def colorize_light_black(s
+        def colorize_light_black(string)
+          colorize(string, '0;90;49')
