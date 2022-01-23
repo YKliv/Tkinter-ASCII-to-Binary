@@ -28,3 +28,8 @@ module CircleCI
 
         def colorize(string, color_code)
           "\e[#{color_code}m#{string}\e[0m"
+        end
+      end
+    end
+  end
+end
