@@ -9,4 +9,7 @@ module CircleCI
         end
 
         def pusher_id
-    
+          @hash['pusher_id']
+        end
+
+      
