@@ -4,4 +4,5 @@ module CircleCI
   module CLI
     module Response
       class Account
-        def 
+        def initialize(hash)
+          @hash = 
