@@ -5,4 +5,8 @@ module CircleCI
     module Response
       class Account
         def initialize(hash)
-          @hash = 
+          @hash = hash
+        end
+
+        def pusher_id
+    
