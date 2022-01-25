@@ -12,4 +12,6 @@ module CircleCI
           @hash['pusher_id']
         end
 
-      
+        class << self
+          def me
+        
