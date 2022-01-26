@@ -15,4 +15,9 @@ module CircleCI
         class << self
           def me
             Account.new(CircleCi::User.new.me.body)
-         
+          end
+        end
+      end
+    end
+  end
+end
