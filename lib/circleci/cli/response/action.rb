@@ -4,4 +4,6 @@ module CircleCI
   module CLI
     module Response
       class Action
-        a
+        attr_reader :name, :status, :run_time_millis
+
+        def initiali
