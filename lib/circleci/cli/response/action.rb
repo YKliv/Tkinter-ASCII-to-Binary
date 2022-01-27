@@ -9,4 +9,5 @@ module CircleCI
         def initialize(hash)
           @hash = hash
           @name = hash['name']
-          @status = has
+          @status = hash['status']
+          @run_time_millis = hash['run
