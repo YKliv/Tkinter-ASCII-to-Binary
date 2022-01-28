@@ -14,4 +14,5 @@ module CircleCI
         end
 
         def log
-      
+          request(@hash['output_url'])
+         
