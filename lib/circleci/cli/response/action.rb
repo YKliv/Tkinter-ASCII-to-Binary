@@ -10,4 +10,8 @@ module CircleCI
           @hash = hash
           @name = hash['name']
           @status = hash['status']
-          @run_time_millis = hash['run
+          @run_time_millis = hash['run_time_millis']
+        end
+
+        def log
+      
