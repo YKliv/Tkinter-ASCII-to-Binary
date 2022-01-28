@@ -15,4 +15,6 @@ module CircleCI
 
         def log
           request(@hash['output_url'])
-         
+            .map do |r|
+            r['message']
+            
