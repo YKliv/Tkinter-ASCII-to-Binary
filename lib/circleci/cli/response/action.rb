@@ -18,4 +18,6 @@ module CircleCI
             .map do |r|
             r['message']
               .gsub(/\r\n/, "\n")
-              .gsub(/\e\[
+              .gsub(/\e\[A\r\e\[2K/, '')
+              .scan(/.{1,120}/)
+          
