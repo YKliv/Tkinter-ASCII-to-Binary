@@ -23,4 +23,7 @@ module CircleCI
               .join("\n")
           end
             .join("\n")
-       
+        end
+
+        def failed?
+          @status == 'timed
