@@ -26,4 +26,7 @@ module CircleCI
         end
 
         def failed?
-          @status == 'timed
+          @status == 'timedout' || @status == 'failed'
+        end
+
+      
