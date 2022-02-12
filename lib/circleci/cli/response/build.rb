@@ -14,3 +14,50 @@ module CircleCI
 
           def failed(username, reponame)
             CircleCi::Project.new(username, reponame, 'github').recent_builds(filter: 'failed')
+                             .body
+                             .map { |b| Build.new(b) }
+          end
+
+          def branch(username, reponame, branch)
+            CircleCi::Project.new(username, reponame, 'github').recent_builds_branch(branch)
+                             .body
+                             .map { |b| Build.new(b) }
+          end
+
+          def get(username, reponame, number)
+            Build.new(CircleCi::Build.new(username, reponame, 'github', number).get.body)
+          end
+
+          def retry(username, reponame, number)
+            Build.new(CircleCi::Build.new(username, reponame, 'github', number).retry.body)
+          end
+
+          def cancel(username, reponame, number)
+            Build.new(CircleCi::Build.new(username, reponame, 'github', number).cancel.body)
+          end
+        end
+
+        attr_reader :username, :build_number, :reponame, :branch, :status, :author_name, :start_time,
+                    :user, :workflow_name, :workflow_job_name
+
+        def initialize(hash) # rubocop:disable Metrics/MethodLength
+          @hash = hash
+          @username = hash['username']
+          @build_number = hash['build_num']
+          @reponame = hash['reponame']
+          @branch = hash['branch']
+          @status = hash['status']
+          @author_name = hash['author_name']
+          @start_time = hash['start_time']
+          @user = hash.dig('user', 'login')
+          @workflow_name = hash.dig('workflows', 'workflow_name')
+          @workflow_job_name = hash.dig('workflows', 'job_name')
+        end
+
+        def running?
+          status == 'running' || status || 'queued'
+        end
+
+        def finished?
+          status == 'success' || status == 'canceled' || status == 'failed' || status == 'no_tests'
+        end
