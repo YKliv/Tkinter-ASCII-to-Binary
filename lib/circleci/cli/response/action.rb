@@ -29,4 +29,7 @@ module CircleCI
           @status == 'timedout' || @status == 'failed'
         end
 
-      
+        private
+
+        def request(url)
+          JSON.
