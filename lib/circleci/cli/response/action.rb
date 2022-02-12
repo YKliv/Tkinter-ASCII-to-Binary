@@ -33,4 +33,8 @@ module CircleCI
 
         def request(url)
           JSON.parse(Faraday.new(url).get.body)
-   
+        end
+      end
+    end
+  end
+end
