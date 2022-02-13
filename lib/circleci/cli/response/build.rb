@@ -61,3 +61,52 @@ module CircleCI
         def finished?
           status == 'success' || status == 'canceled' || status == 'failed' || status == 'no_tests'
         end
+
+        def channel_name
+          "private-#{username}@#{reponame}@#{build_number}@vcs-github@0"
+        end
+
+        def project_name
+          "#{username}/#{reponame}"
+        end
+
+        def information
+          [
+            build_number,
+            colorize_by_status(status, status),
+            colorize_by_status(branch, status),
+            author_name,
+            (@hash['subject'] || '').slice(0..60),
+            format_time(@hash['build_time_millis']),
+            start_time
+          ]
+        end
+
+        def steps
+          hash = @hash['steps'].group_by { |s| s['actions'].first['type'] }
+          hash.flat_map { |type, value| value.map { |v| Step.new(type, v) } }
+        end
+
+        private
+
+        def colorize_by_status(string, status)
+          case status
+          when 'success', 'fixed' then Printer.colorize_green(string)
+          when 'canceled' then Printer.colorize_yellow(string)
+          when 'failed' then Printer.colorize_red(string)
+          when 'no_tests', 'not_run' then Printer.colorize_light_black(string)
+          else string
+          end
+        end
+
+        def format_time(time)
+          return '' unless time
+
+          minute = format('%<time>02d', time: time / 1000 / 60)
+          second = format('%<time>02d', time: (time / 1000) % 60)
+          "#{minute}:#{second}"
+        end
+      end
+    end
+  end
+end
