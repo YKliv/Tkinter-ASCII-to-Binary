@@ -2,4 +2,6 @@
 
 module CircleCI
   module CLI
-    m
+    module Response
+      class Step
+        attr_reader 
