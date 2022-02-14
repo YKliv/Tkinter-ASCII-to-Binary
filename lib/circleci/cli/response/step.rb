@@ -6,4 +6,6 @@ module CircleCI
       class Step
         attr_reader :type, :status
 
-        def initialize(type
+        def initialize(type, hash)
+          @type = type
+  
