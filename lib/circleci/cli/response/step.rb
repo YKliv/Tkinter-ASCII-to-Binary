@@ -12,4 +12,6 @@ module CircleCI
           @hash = hash
         end
 
-        def action
+        def actions
+          @hash['actions'].map { |a| Action.new(a) }
+       
