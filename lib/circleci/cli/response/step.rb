@@ -8,4 +8,5 @@ module CircleCI
 
         def initialize(type, hash)
           @type = type
-  
+          @status = hash['status']
+          @hash = 
