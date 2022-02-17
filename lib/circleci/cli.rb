@@ -9,4 +9,5 @@ require 'rugged'
 require 'circleci'
 require 'terminal-notifier'
 
-require
+require 'circleci/cli/version'
+require 'circleci/cli/comm
