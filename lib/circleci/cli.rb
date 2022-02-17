@@ -6,4 +6,7 @@ require 'launchy'
 require 'terminal-table'
 require 'highline/import'
 require 'rugged'
-require 'c
+require 'circleci'
+require 'terminal-notifier'
+
+require
