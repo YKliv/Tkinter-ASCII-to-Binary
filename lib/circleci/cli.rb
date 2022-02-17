@@ -10,4 +10,6 @@ require 'circleci'
 require 'terminal-notifier'
 
 require 'circleci/cli/version'
-require 'circleci/cli/comm
+require 'circleci/cli/command'
+require 'circleci/cli/response'
+re
