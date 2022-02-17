@@ -4,4 +4,6 @@ require 'thor'
 require 'faraday'
 require 'launchy'
 require 'terminal-table'
-require 'hig
+require 'highline/import'
+require 'rugged'
+require 'c
