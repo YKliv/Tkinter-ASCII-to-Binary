@@ -13,4 +13,8 @@ require 'circleci/cli/version'
 require 'circleci/cli/command'
 require 'circleci/cli/response'
 require 'circleci/cli/printer'
-require 'circleci/cli/n
+require 'circleci/cli/networking'
+
+module CircleCI
+  module CLI
+    cla
