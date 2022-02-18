@@ -12,4 +12,5 @@ require 'terminal-notifier'
 require 'circleci/cli/version'
 require 'circleci/cli/command'
 require 'circleci/cli/response'
-re
+require 'circleci/cli/printer'
+require 'circleci/cli/n
