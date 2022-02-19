@@ -17,4 +17,8 @@ require 'circleci/cli/networking'
 
 module CircleCI
   module CLI
-    class Runner < Thor # rubocop:disable Metrics/ClassLeng
+    class Runner < Thor # rubocop:disable Metrics/ClassLength
+      package_name 'circleci-cli'
+
+      class << self
+  
