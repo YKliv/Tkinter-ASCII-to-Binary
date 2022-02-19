@@ -21,4 +21,5 @@ module CircleCI
       package_name 'circleci-cli'
 
       class << self
-  
+        def project
+          repository = Rugged::Reposi
