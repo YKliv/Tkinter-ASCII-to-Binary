@@ -22,4 +22,5 @@ module CircleCI
 
       class << self
         def project
-          repository = Rugged::Reposi
+          repository = Rugged::Repository.new('.')
+          origin = repository.remote
