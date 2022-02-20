@@ -23,4 +23,5 @@ module CircleCI
       class << self
         def project
           repository = Rugged::Repository.new('.')
-          origin = repository.remote
+          origin = repository.remotes.find { |r| r.name == 'origin' }
+          regexp
