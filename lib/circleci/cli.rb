@@ -24,4 +24,5 @@ module CircleCI
         def project
           repository = Rugged::Repository.new('.')
           origin = repository.remotes.find { |r| r.name == 'origin' }
-          regexp = %r{(?:git@|https://)github.com(?::|/)([\w_-]+/[.\w_-
+          regexp = %r{(?:git@|https://)github.com(?::|/)([\w_-]+/[.\w_-]+?)(?:\.git)*$}
+          return Regexp.last_mat
