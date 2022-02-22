@@ -27,4 +27,8 @@ module CircleCI
           regexp = %r{(?:git@|https://)github.com(?::|/)([\w_-]+/[.\w_-]+?)(?:\.git)*$}
           return Regexp.last_match(1) if origin.url =~ regexp
 
+          nil
+        end
+
+        def branch_name
         
