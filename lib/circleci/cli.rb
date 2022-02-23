@@ -31,4 +31,5 @@ module CircleCI
         end
 
         def branch_name
-        
+          repository = Rugged::Repository.new('.')
+  
