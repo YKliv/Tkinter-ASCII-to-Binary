@@ -37,4 +37,7 @@ module CircleCI
           return nil unless head.branch?
 
           head.name.sub(%r{\Arefs/heads/}, '')
-        en
+        end
+      end
+
+      desc 'projects', 'List pr
