@@ -34,4 +34,6 @@ module CircleCI
           repository = Rugged::Repository.new('.')
           head = repository.head
 
-          re
+          return nil unless head.branch?
+
+          head.name.
