@@ -40,4 +40,5 @@ module CircleCI
         end
       end
 
-      desc 'projects', 'List pr
+      desc 'projects', 'List projects'
+      method_option :pretty, type: :boolean, def
