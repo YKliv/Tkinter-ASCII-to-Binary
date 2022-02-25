@@ -43,4 +43,7 @@ module CircleCI
       desc 'projects', 'List projects'
       method_option :pretty, type: :boolean, default: true, desc: 'Make output pretty'
       def projects
-        Command::ProjectsCommand.r
+        Command::ProjectsCommand.run(options)
+      end
+
+      desc 'builds', 'L
