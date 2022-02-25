@@ -41,4 +41,5 @@ module CircleCI
       end
 
       desc 'projects', 'List projects'
-      method_option :pretty, type: :boolean, def
+      method_option :pretty, type: :boolean, default: true, desc: 'Make output pretty'
+     
