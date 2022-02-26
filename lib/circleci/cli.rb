@@ -46,4 +46,6 @@ module CircleCI
         Command::ProjectsCommand.run(options)
       end
 
-      desc 'builds', 'L
+      desc 'builds', 'List builds'
+      method_option :project,
+          
