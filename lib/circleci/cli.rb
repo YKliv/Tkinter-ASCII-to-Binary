@@ -49,4 +49,5 @@ module CircleCI
       desc 'builds', 'List builds'
       method_option :project,
                     aliases: 'p',
-              
+                    type: :string,
+                    banne
