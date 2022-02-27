@@ -50,4 +50,6 @@ module CircleCI
       method_option :project,
                     aliases: 'p',
                     type: :string,
-                    banne
+                    banner: 'user/project',
+                    default: project,
+  
