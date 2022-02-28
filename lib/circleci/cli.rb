@@ -54,4 +54,6 @@ module CircleCI
                     default: project,
                     desc: 'A project you want to get.'
       method_option :branch,
-                    aliases: 
+                    aliases: 'b',
+                    type: :string,
+    
