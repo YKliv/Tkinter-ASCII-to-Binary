@@ -58,4 +58,5 @@ module CircleCI
                     type: :string,
                     banner: 'some-branch',
                     default: branch_name,
-                    desc: 'A bra
+                    desc: 'A branch name you want to filter with.'
+      method_opti
