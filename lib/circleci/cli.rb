@@ -59,4 +59,5 @@ module CircleCI
                     banner: 'some-branch',
                     default: branch_name,
                     desc: 'A branch name you want to filter with.'
-      method_opti
+      method_option :all,
+                    aliases: 'a'
