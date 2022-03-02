@@ -62,4 +62,5 @@ module CircleCI
       method_option :all,
                     aliases: 'a',
                     type: :boolean,
-              
+                    default: false,
+                    d
