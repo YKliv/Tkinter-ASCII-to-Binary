@@ -60,4 +60,6 @@ module CircleCI
                     default: branch_name,
                     desc: 'A branch name you want to filter with.'
       method_option :all,
-                    aliases: 'a'
+                    aliases: 'a',
+                    type: :boolean,
+              
