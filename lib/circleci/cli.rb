@@ -63,4 +63,5 @@ module CircleCI
                     aliases: 'a',
                     type: :boolean,
                     default: false,
-                    desc: 'Target all the branches. This option ove
+                    desc: 'Target all the branches. This option overwrites branch option.'
+      method_option :pretty
