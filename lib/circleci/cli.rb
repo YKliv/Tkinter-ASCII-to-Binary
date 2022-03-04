@@ -64,4 +64,6 @@ module CircleCI
                     type: :boolean,
                     default: false,
                     desc: 'Target all the branches. This option overwrites branch option.'
-      method_option :pretty, type: :boolean, banner: 'true/false', default: true, 
+      method_option :pretty, type: :boolean, banner: 'true/false', default: true, desc: 'Make output pretty.'
+      def builds
+        
