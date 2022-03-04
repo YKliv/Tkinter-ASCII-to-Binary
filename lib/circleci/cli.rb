@@ -63,4 +63,4 @@ module CircleCI
                     aliases: 'a',
                     type: :boolean,
                     default: false,
-                    d
+                    desc: 'Target all the branches. This option ove
