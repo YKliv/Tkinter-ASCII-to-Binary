@@ -67,4 +67,6 @@ module CircleCI
       method_option :pretty, type: :boolean, banner: 'true/false', default: true, desc: 'Make output pretty.'
       def builds
         Command::BuildsCommand.run(options)
-    
+      end
+
+      desc 'build', 'Show the build
