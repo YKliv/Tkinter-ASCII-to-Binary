@@ -66,4 +66,5 @@ module CircleCI
                     desc: 'Target all the branches. This option overwrites branch option.'
       method_option :pretty, type: :boolean, banner: 'true/false', default: true, desc: 'Make output pretty.'
       def builds
-        
+        Command::BuildsCommand.run(options)
+    
