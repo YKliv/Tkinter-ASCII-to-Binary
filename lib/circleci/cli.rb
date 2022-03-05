@@ -69,4 +69,6 @@ module CircleCI
         Command::BuildsCommand.run(options)
       end
 
-      desc 'build', 'Show the build
+      desc 'build', 'Show the build result'
+      method_option :project,
+         
