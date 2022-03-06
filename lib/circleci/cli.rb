@@ -74,4 +74,5 @@ module CircleCI
                     aliases: 'p',
                     type: :string,
                     banner: 'user/project',
-                    defau
+                    default: project,
+                    desc: 'A project you want t
