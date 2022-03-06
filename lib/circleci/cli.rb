@@ -73,4 +73,5 @@ module CircleCI
       method_option :project,
                     aliases: 'p',
                     type: :string,
-                    banner: 'use
+                    banner: 'user/project',
+                    defau
