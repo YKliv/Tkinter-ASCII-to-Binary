@@ -72,4 +72,5 @@ module CircleCI
       desc 'build', 'Show the build result'
       method_option :project,
                     aliases: 'p',
-                    t
+                    type: :string,
+                    banner: 'use
