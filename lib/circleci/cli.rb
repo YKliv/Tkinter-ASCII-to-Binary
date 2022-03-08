@@ -76,4 +76,5 @@ module CircleCI
                     banner: 'user/project',
                     default: project,
                     desc: 'A project you want to get.'
-      method_option :build, aliases: 'n', type: :numeric, banner: 'build-number', desc: 
+      method_option :build, aliases: 'n', type: :numeric, banner: 'build-number', desc: 'Build number you want to get.'
+      method_opt
