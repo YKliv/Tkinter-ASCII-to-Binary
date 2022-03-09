@@ -77,4 +77,4 @@ module CircleCI
                     default: project,
                     desc: 'A project you want to get.'
       method_option :build, aliases: 'n', type: :numeric, banner: 'build-number', desc: 'Build number you want to get.'
-      method_option :last, aliases: 'l', type: :boolean,
+      method_option :last, aliases: 'l', type: :boolean, default: false, desc: 'Get last failed build
