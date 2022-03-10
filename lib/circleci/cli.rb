@@ -80,4 +80,7 @@ module CircleCI
       method_option :last, aliases: 'l', type: :boolean, default: false, desc: 'Get last failed build.'
       method_option :pretty, type: :boolean, banner: 'true/false', default: true, desc: 'Make output pretty.'
       def build
-        Command::BuildComman
+        Command::BuildCommand.run(options)
+      end
+
+      desc 'browse', '
