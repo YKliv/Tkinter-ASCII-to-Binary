@@ -83,4 +83,6 @@ module CircleCI
         Command::BuildCommand.run(options)
       end
 
-      desc 'browse', '
+      desc 'browse', 'Open CircleCI website'
+      method_option :project,
+         
