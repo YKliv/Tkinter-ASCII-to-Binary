@@ -86,4 +86,5 @@ module CircleCI
       desc 'browse', 'Open CircleCI website'
       method_option :project,
                     aliases: 'p',
-                    type: 
+                    type: :string,
+                    bann
