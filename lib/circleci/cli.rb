@@ -89,4 +89,5 @@ module CircleCI
                     type: :string,
                     banner: 'user/project',
                     default: project,
-                    desc: 'A
+                    desc: 'A project you want to get.'
+      method_option :
