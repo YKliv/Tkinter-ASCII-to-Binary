@@ -91,4 +91,6 @@ module CircleCI
                     default: project,
                     desc: 'A project you want to get.'
       method_option :build,
-                    aliases: 
+                    aliases: 'n',
+                    type: :numeric,
+      
