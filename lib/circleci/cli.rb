@@ -94,4 +94,5 @@ module CircleCI
                     aliases: 'n',
                     type: :numeric,
                     banner: 'build-number',
-                   
+                    desc: 'Build number you want to browse.'
+      de
