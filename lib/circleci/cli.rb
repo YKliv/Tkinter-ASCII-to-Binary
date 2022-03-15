@@ -95,4 +95,6 @@ module CircleCI
                     type: :numeric,
                     banner: 'build-number',
                     desc: 'Build number you want to browse.'
-      de
+      def browse
+        Command::BrowseCommand.run(options)
+   
