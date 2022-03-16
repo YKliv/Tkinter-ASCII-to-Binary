@@ -97,4 +97,7 @@ module CircleCI
                     desc: 'Build number you want to browse.'
       def browse
         Command::BrowseCommand.run(options)
-   
+      end
+
+      desc 'retry', 'Retry a build'
+    
