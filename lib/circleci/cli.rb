@@ -100,4 +100,5 @@ module CircleCI
       end
 
       desc 'retry', 'Retry a build'
-    
+      method_option :project,
+                
