@@ -101,4 +101,6 @@ module CircleCI
 
       desc 'retry', 'Retry a build'
       method_option :project,
-                
+                    aliases: 'p',
+                    type: :string,
+        
