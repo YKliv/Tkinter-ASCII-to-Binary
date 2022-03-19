@@ -109,4 +109,5 @@ module CircleCI
       method_option :build,
                     aliases: 'n',
                     type: :numeric,
-      
+                    banner: 'build-number',
+                    
