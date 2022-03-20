@@ -111,4 +111,4 @@ module CircleCI
                     type: :numeric,
                     banner: 'build-number',
                     desc: 'Build number you want to retry.'
-  
+      method_option :last, aliases: 'l', typ
