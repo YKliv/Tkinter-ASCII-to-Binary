@@ -117,4 +117,5 @@ module CircleCI
       end
 
       desc 'cancel', 'Cancel a build'
-   
+      method_option :project,
+                    a
