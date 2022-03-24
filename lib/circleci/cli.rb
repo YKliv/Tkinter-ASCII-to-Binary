@@ -114,4 +114,7 @@ module CircleCI
       method_option :last, aliases: 'l', type: :boolean, desc: 'Retry last failed build.'
       def retry
         Command::RetryCommand.run(options)
-      e
+      end
+
+      desc 'cancel', 'Cancel a build'
+   
