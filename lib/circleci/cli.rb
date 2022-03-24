@@ -118,4 +118,6 @@ module CircleCI
 
       desc 'cancel', 'Cancel a build'
       method_option :project,
-                    a
+                    aliases: 'p',
+                    type: :string,
+       
