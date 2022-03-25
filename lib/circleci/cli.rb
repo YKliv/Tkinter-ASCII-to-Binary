@@ -120,4 +120,5 @@ module CircleCI
       method_option :project,
                     aliases: 'p',
                     type: :string,
-       
+                    default: project,
+                    
