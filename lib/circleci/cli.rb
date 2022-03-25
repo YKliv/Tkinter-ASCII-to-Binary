@@ -121,4 +121,5 @@ module CircleCI
                     aliases: 'p',
                     type: :string,
                     default: project,
-                    
+                    desc: 'A project you want to get.'
+      method_option :build,
