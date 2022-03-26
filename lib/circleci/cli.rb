@@ -124,4 +124,5 @@ module CircleCI
                     desc: 'A project you want to get.'
       method_option :build,
                     aliases: 'n',
-         
+                    type: :numeric,
+                    bann
