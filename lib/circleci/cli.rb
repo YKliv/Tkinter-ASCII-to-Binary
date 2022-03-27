@@ -128,4 +128,7 @@ module CircleCI
                     banner: 'build-number',
                     desc: 'Build number you want to cancel.'
       def cancel
-     
+        Command::CancelCommand.run(options)
+      end
+
+    
