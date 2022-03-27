@@ -126,4 +126,6 @@ module CircleCI
                     aliases: 'n',
                     type: :numeric,
                     banner: 'build-number',
-                    desc: 'Bu
+                    desc: 'Build number you want to cancel.'
+      def cancel
+     
