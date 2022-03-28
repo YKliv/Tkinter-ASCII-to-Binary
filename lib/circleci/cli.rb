@@ -132,3 +132,5 @@ module CircleCI
       end
 
       desc 'watch', 'Watch builds in real time'
+      method_option :project,
+              
