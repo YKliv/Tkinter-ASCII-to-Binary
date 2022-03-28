@@ -131,4 +131,4 @@ module CircleCI
         Command::CancelCommand.run(options)
       end
 
-    
+      desc 'watch', 'Watch builds in real time'
