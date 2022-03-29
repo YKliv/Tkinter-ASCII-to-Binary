@@ -136,4 +136,5 @@ module CircleCI
                     aliases: 'p',
                     type: :string,
                     banner: 'user/project',
-           
+                    default: project,
+                  
