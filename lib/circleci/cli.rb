@@ -138,4 +138,5 @@ module CircleCI
                     banner: 'user/project',
                     default: project,
                     desc: 'A project you want to get.'
-     
+      method_option :branch,
+                    aliases:
