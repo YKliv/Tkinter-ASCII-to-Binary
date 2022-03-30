@@ -141,4 +141,5 @@ module CircleCI
       method_option :branch,
                     aliases: 'b',
                     type: :string,
-        
+                    banner: 'some-branch',
+                   
