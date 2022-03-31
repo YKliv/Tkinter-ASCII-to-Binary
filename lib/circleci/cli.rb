@@ -143,4 +143,4 @@ module CircleCI
                     type: :string,
                     banner: 'some-branch',
                     default: branch_name,
-                    de
+                    desc: 'A branch name you want to filter with.'
