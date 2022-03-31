@@ -142,4 +142,5 @@ module CircleCI
                     aliases: 'b',
                     type: :string,
                     banner: 'some-branch',
-                   
+                    default: branch_name,
+                    de
