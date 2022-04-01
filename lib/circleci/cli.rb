@@ -146,4 +146,6 @@ module CircleCI
                     desc: 'A branch name you want to filter with.'
       method_option :all,
                     aliases: 'a',
-                    type: :bo
+                    type: :boolean,
+                    default: false,
+       
