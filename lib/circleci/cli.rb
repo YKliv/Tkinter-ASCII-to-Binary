@@ -149,4 +149,5 @@ module CircleCI
                     type: :boolean,
                     default: false,
                     desc: 'Target all the branches. This option overwrites branch option.'
-      meth
+      method_option :user, aliases: 'u', type: :string, banner: 'user'
+    
