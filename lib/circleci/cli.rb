@@ -148,4 +148,5 @@ module CircleCI
                     aliases: 'a',
                     type: :boolean,
                     default: false,
-                    desc: 'Target all the branches. 
+                    desc: 'Target all the branches. This option overwrites branch option.'
+      meth
