@@ -150,4 +150,5 @@ module CircleCI
                     default: false,
                     desc: 'Target all the branches. This option overwrites branch option.'
       method_option :user, aliases: 'u', type: :string, banner: 'user'
-    
+      method_option :verbose,
+                    aliase
