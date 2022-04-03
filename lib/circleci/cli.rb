@@ -152,4 +152,6 @@ module CircleCI
       method_option :user, aliases: 'u', type: :string, banner: 'user'
       method_option :verbose,
                     aliases: 'v',
-                    type: :boole
+                    type: :boolean,
+                    default: false,
+                   
