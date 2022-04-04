@@ -159,4 +159,5 @@ module CircleCI
         Command::WatchCommand.run(options)
       end
 
-      des
+      desc 'version', 'Show gem version'
+      def
