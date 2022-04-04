@@ -154,4 +154,4 @@ module CircleCI
                     aliases: 'v',
                     type: :boolean,
                     default: false,
-                   
+                    desc: 'Show all the build logs including s
