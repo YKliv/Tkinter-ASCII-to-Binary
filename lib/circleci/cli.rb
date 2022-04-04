@@ -156,4 +156,7 @@ module CircleCI
                     default: false,
                     desc: 'Show all the build logs including successful build steps.'
       def watch
-        Command::Watc
+        Command::WatchCommand.run(options)
+      end
+
+      des
