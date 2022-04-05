@@ -162,4 +162,7 @@ module CircleCI
       desc 'version', 'Show gem version'
       def version
         say CircleCI::CLI::VERSION
-    
+      end
+    end
+  end
+end
