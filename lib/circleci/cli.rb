@@ -160,4 +160,6 @@ module CircleCI
       end
 
       desc 'version', 'Show gem version'
-      def
+      def version
+        say CircleCI::CLI::VERSION
+    
