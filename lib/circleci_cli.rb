@@ -2,4 +2,6 @@
 
 require 'circleci/cli'
 
-module Circle
+module CircleCI
+  module CLI; end
+end
