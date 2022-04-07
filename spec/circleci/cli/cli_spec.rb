@@ -2,4 +2,6 @@
 
 require 'spec_helper'
 
-describe Cir
+describe CircleCI::CLI::Runner do
+  describe '#project' do
+    s
