@@ -6,4 +6,5 @@ describe CircleCI::CLI::Runner do
   describe '#project' do
     subject { described_class.project }
 
-    context 'when git reposit
+    context 'when git repository has a https github remote' do
+      let(
