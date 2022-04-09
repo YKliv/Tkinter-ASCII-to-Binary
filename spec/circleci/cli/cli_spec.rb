@@ -4,4 +4,6 @@ require 'spec_helper'
 
 describe CircleCI::CLI::Runner do
   describe '#project' do
-    s
+    subject { described_class.project }
+
+    context 'when git reposit
