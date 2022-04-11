@@ -11,4 +11,6 @@ describe CircleCI::CLI::Runner do
       it 'extracts the reponame from the origin url' do
         expect(subject).to eq('user/repository')
       end
-    e
+    end
+
+    context 'when git repository has a githu
