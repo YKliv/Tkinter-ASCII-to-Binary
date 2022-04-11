@@ -13,4 +13,5 @@ describe CircleCI::CLI::Runner do
       end
     end
 
-    context 'when git repository has a githu
+    context 'when git repository has a github remote' do
+      let(:rugged_response_remote_u
