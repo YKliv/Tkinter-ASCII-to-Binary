@@ -14,4 +14,5 @@ describe CircleCI::CLI::Runner do
     end
 
     context 'when git repository has a github remote' do
-      let(:rugged_response_remote_u
+      let(:rugged_response_remote_url) { 'git@github.com:user/repository.git' }
+      it 'extracts th
