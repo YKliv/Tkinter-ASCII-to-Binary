@@ -20,4 +20,5 @@ describe CircleCI::CLI::Runner do
       end
     end
 
-    context 'when git repository has a githu
+    context 'when git repository has a github remote that contains a dot' do
+      let(:rugged_
