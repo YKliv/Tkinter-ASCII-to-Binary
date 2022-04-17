@@ -21,4 +21,5 @@ describe CircleCI::CLI::Runner do
     end
 
     context 'when git repository has a github remote that contains a dot' do
-      let(:rugged_response_remote_url) { 'git@github.com:user/example.com.git'
+      let(:rugged_response_remote_url) { 'git@github.com:user/example.com.git' }
+      it 'extracts the reponame from the ori
