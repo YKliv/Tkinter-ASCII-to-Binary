@@ -24,4 +24,7 @@ describe CircleCI::CLI::Runner do
       let(:rugged_response_remote_url) { 'git@github.com:user/example.com.git' }
       it 'extracts the reponame from the origin url, including the dot' do
         expect(subject).to eq('user/example.com')
-     
+      end
+    end
+
+    context 'when git repository has a non-githu
