@@ -27,4 +27,5 @@ describe CircleCI::CLI::Runner do
       end
     end
 
-    context 'when git repository has a non-githu
+    context 'when git repository has a non-github remote' do
+      let(:rugged_response_r
