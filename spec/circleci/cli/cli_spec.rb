@@ -29,4 +29,5 @@ describe CircleCI::CLI::Runner do
 
     context 'when git repository has a non-github remote' do
       let(:rugged_response_remote_url) { 'git@bitbucket.org:user/repository.git' }
-  
+      it 'returns nil' do
+        expect(subject
