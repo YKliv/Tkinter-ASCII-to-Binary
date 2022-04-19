@@ -35,4 +35,5 @@ describe CircleCI::CLI::Runner do
     end
   end
 
-  desc
+  describe '#branch_name' do
+    subject { described_clas
