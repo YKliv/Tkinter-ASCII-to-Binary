@@ -36,4 +36,6 @@ describe CircleCI::CLI::Runner do
   end
 
   describe '#branch_name' do
-    subject { described_clas
+    subject { described_class.branch_name }
+
+    context 'with a valid
