@@ -38,4 +38,5 @@ describe CircleCI::CLI::Runner do
   describe '#branch_name' do
     subject { described_class.branch_name }
 
-    context 'with a valid
+    context 'with a valid current branch' do
+      let(:rugged_
