@@ -40,4 +40,6 @@ describe CircleCI::CLI::Runner do
 
     context 'with a valid current branch' do
       let(:rugged_response_branch_name) { 'branch' }
-      let(:rugged_resp
+      let(:rugged_response_is_branch) { true }
+
+      it { is_expected.to eq(r
