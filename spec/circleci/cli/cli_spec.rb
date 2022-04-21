@@ -42,4 +42,7 @@ describe CircleCI::CLI::Runner do
       let(:rugged_response_branch_name) { 'branch' }
       let(:rugged_response_is_branch) { true }
 
-      it { is_expected.to eq(r
+      it { is_expected.to eq(rugged_response_branch_name) }
+    end
+
+    
