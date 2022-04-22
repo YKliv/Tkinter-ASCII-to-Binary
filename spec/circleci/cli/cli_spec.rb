@@ -49,4 +49,7 @@ describe CircleCI::CLI::Runner do
       let(:rugged_response_branch_name) { nil }
       let(:rugged_response_is_branch) { false }
 
- 
+      it { is_expected.to be_nil }
+    end
+  end
+en
