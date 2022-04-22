@@ -46,4 +46,7 @@ describe CircleCI::CLI::Runner do
     end
 
     context 'with no current branch' do
-      let(:rugged_response_branch_name) { nil
+      let(:rugged_response_branch_name) { nil }
+      let(:rugged_response_is_branch) { false }
+
+ 
