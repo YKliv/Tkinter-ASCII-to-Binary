@@ -45,4 +45,5 @@ describe CircleCI::CLI::Runner do
       it { is_expected.to eq(rugged_response_branch_name) }
     end
 
-    
+    context 'with no current branch' do
+  
