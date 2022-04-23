@@ -52,4 +52,4 @@ describe CircleCI::CLI::Runner do
       it { is_expected.to be_nil }
     end
   end
-en
+end
