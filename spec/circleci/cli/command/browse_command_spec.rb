@@ -2,4 +2,4 @@
 
 require 'spec_helper'
 
-describe Circ
+describe CircleCI::CLI::Command::BrowseCommand, type: :c
