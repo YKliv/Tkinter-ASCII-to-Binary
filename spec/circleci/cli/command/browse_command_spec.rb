@@ -2,4 +2,5 @@
 
 require 'spec_helper'
 
-describe CircleCI::CLI::Command::BrowseCommand, type: :c
+describe CircleCI::CLI::Command::BrowseCommand, type: :command do
+  shared_examples_for 'a command open
