@@ -7,4 +7,6 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
     it 'should open browser' do
       allow(CircleCI::CLI::Command::BrowseCommand).to receive(:say)
       expect(Launchy).to receive(:open).with(expected_url)
-      CircleCI::CLI::Command:
+      CircleCI::CLI::Command::BrowseCommand.run(options)
+    end
+  end
