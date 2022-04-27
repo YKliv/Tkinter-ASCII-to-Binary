@@ -10,3 +10,6 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
       CircleCI::CLI::Command::BrowseCommand.run(options)
     end
   end
+
+  context 'with no input' do
+    let(:options) { 
