@@ -16,4 +16,8 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
     let(:expected_url) { 'https://circleci.com/gh/user/project_name_from_io' }
 
     it_behaves_like 'a command opens browser'
-    it_behaves_like 'a command asks project na
+    it_behaves_like 'a command asks project name'
+  end
+
+  context 'with project input' do
+    let(:
