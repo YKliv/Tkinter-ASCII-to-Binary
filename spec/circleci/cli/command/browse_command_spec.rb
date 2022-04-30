@@ -20,4 +20,4 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
   end
 
   context 'with project input' do
-    let(:
+    let(:io_response_project_name) { 'unhappychoice/Circl
