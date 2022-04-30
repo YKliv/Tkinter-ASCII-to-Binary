@@ -21,4 +21,4 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
 
   context 'with project input' do
     let(:io_response_project_name) { 'unhappychoice/Circler' }
-    let(:options) { OpenStruct.new(
+    let(:options) { OpenStruct.new(project: io_response_project_name, b
