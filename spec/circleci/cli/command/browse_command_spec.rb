@@ -22,4 +22,6 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
   context 'with project input' do
     let(:io_response_project_name) { 'unhappychoice/Circler' }
     let(:options) { OpenStruct.new(project: io_response_project_name, build: nil) }
-    let(:expected_url) { "https://circleci.com
+    let(:expected_url) { "https://circleci.com/gh/#{io_response_project_name}" }
+
+    it_behaves_like 
