@@ -29,4 +29,4 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
 
   context 'with build input' do
     let(:options) { OpenStruct.new(project: nil, build: 5) }
-    let
+    let(:expected_url) { 'https://circleci.com/gh/user/p
