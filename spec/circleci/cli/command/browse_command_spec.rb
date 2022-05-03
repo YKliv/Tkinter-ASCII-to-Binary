@@ -28,4 +28,5 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
   end
 
   context 'with build input' do
-    let(:options) { OpenSt
+    let(:options) { OpenStruct.new(project: nil, build: 5) }
+    let
