@@ -27,4 +27,5 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
     it_behaves_like 'a command opens browser'
   end
 
-  context 'w
+  context 'with build input' do
+    let(:options) { OpenSt
