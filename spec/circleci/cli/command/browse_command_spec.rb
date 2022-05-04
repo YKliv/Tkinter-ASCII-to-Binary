@@ -31,4 +31,5 @@ describe CircleCI::CLI::Command::BrowseCommand, type: :command do
     let(:options) { OpenStruct.new(project: nil, build: 5) }
     let(:expected_url) { 'https://circleci.com/gh/user/project_name_from_io/5' }
 
-    it_behaves_like '
+    it_behaves_like 'a command opens browser'
+    it_behaves_like 'a c
