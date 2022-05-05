@@ -2,4 +2,4 @@
 
 require 'spec_helper'
 
-describe 
+describe CircleCI::CLI::Command::BuildCommand, type: :command do
