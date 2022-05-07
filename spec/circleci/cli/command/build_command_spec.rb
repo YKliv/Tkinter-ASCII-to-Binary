@@ -10,4 +10,6 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
         +---------------+
         |     \e[0;32;49mbuild\e[0m     |
         +-------+-------+
-        | \e[0;32;49mBuild\
+        | \e[0;32;49mBuild\e[0m | 00:01 |
+        +-------+-------+
+        |  
