@@ -8,4 +8,5 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
       <<~EXPECTED
         +---------------+
         +---------------+
-    
+        |     \e[0;32;49mbuild\e[0m     |
+        +--
