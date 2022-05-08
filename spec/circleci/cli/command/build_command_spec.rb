@@ -13,4 +13,5 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
         | \e[0;32;49mBuild\e[0m | 00:01 |
         +-------+-------+
         |     \e[0;32;49mtest\e[0m      |
-        +-------+----
+        +-------+-------+
+        | \e[0;32;49mTest\e[0m  | 00:
