@@ -16,4 +16,8 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
         +-------+-------+
         | \e[0;32;49mTest\e[0m  | 00:01 |
         +-------+-------+
-      EXP
+      EXPECTED
+    end
+
+    it 'should show build information' do
+ 
