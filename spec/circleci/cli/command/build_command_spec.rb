@@ -20,4 +20,5 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
     end
 
     it 'should show build information' do
-      allow(CircleCI::CLI::Command::BuildCommand).
+      allow(CircleCI::CLI::Command::BuildCommand).to receive(:say) { nil }
+      expect(CircleCI::CLI::Com
