@@ -20,4 +20,4 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
     end
 
     it 'should show build information' do
- 
+      allow(CircleCI::CLI::Command::BuildCommand).
