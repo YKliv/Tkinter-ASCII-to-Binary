@@ -27,4 +27,6 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
   end
 
   context 'with no input' do
-    let(:options) { OpenStruct.new(project: nil, build: nil,
+    let(:options) { OpenStruct.new(project: nil, build: nil, pretty: true) }
+
+    it_behaves_like 'a command ask
