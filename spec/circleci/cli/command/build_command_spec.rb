@@ -23,3 +23,8 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
       allow(CircleCI::CLI::Command::BuildCommand).to receive(:say) { nil }
       expect(CircleCI::CLI::Command::BuildCommand).to receive(:say).with(expected_output.strip)
       CircleCI::CLI::Command::BuildCommand.run(options)
+    end
+  end
+
+  context 'with no input' do
+    le
