@@ -30,4 +30,7 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
     let(:options) { OpenStruct.new(project: nil, build: nil, pretty: true) }
 
     it_behaves_like 'a command asks project name'
-    it_behaves_like 'a com
+    it_behaves_like 'a command show build information'
+  end
+
+  context
