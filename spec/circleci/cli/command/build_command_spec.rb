@@ -34,4 +34,5 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
   end
 
   context 'with project input' do
-    let(:project_
+    let(:project_name) { 'unhappychoice/Circler' }
+    let(:options) { Op
