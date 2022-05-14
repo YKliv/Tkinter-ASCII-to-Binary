@@ -35,4 +35,4 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
 
   context 'with project input' do
     let(:project_name) { 'unhappychoice/Circler' }
-    let(:options) { Op
+    let(:options) { OpenStruct.new(project: project_name, build:
