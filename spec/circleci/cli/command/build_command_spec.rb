@@ -41,4 +41,6 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
   end
 
   context 'with build input' do
-    let(:options) { OpenStruct.new(pro
+    let(:options) { OpenStruct.new(project: nil, build: 5, pretty: true) }
+
+    it_beha
