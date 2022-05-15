@@ -40,4 +40,5 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
     it_behaves_like 'a command show build information'
   end
 
-  context 'with b
+  context 'with build input' do
+    let(:options) { OpenStruct.new(pro
