@@ -48,4 +48,5 @@ describe CircleCI::CLI::Command::BuildCommand, type: :command do
   end
 
   context 'with last option' do
-    let(:
+    let(:project_name) { 'unhappychoice/Circler' }
+  
