@@ -7,4 +7,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
     let(:expected_output) do
       <<~EXPECTED
         +--------------------------------------------------------------------+
-        |             \e[0;32;49mRecent Builds / #{project_name}\e[0m      
+        |             \e[0;32;49mRecent Builds / #{project_name}\e[0m              |
+        +--------+---------+--------+-------
