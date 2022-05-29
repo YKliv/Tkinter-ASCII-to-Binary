@@ -10,4 +10,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
         |             \e[0;32;49mRecent Builds / #{project_name}\e[0m              |
         +--------+---------+--------+--------+--------+----------+-----------+
         | Number | Status  | Branch | Author | Commit | Duration | StartTime |
-        +--------+---
+        +--------+---------+--------+--------+--------+----------+-----------+
+ 
