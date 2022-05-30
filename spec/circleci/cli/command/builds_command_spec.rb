@@ -11,4 +11,4 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
         +--------+---------+--------+--------+--------+----------+-----------+
         | Number | Status  | Branch | Author | Commit | Duration | StartTime |
         +--------+---------+--------+--------+--------+----------+-----------+
- 
+        | 1234   | \e[0;32;49msuccess\e[0m | \e[0;32;49m
