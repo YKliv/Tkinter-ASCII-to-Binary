@@ -16,4 +16,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
       EXPECTED
     end
 
-    it 'should show bu
+    it 'should show builds information' do
+      allow(CircleCI::CLI
