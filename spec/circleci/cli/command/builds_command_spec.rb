@@ -18,4 +18,4 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
 
     it 'should show builds information' do
       allow(CircleCI::CLI::Command::BuildsCommand).to receive(:say) { nil }
-      expect(C
+      expect(CircleCI::CLI::Command::BuildsCommand).to receive
