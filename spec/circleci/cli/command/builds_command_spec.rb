@@ -23,4 +23,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
     end
   end
 
-  con
+  context 'with no input' do
+    let(:rugged_response_bra
