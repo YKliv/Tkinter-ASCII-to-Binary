@@ -24,4 +24,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
   end
 
   context 'with no input' do
-    let(:rugged_response_bra
+    let(:rugged_response_branch_name) { nil }
+    let(:project_name) { io_resp
