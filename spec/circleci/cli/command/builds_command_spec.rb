@@ -25,4 +25,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
 
   context 'with no input' do
     let(:rugged_response_branch_name) { nil }
-    let(:project_name) { io_resp
+    let(:project_name) { io_response_project_name }
+    let(:options) { OpenStruc
