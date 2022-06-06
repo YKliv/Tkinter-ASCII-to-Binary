@@ -34,4 +34,4 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
 
   context 'with project input' do
     let(:project_name) { 'user/project_from_option_' }
-    let(:options) { OpenS
+    let(:options) { OpenStruct.new(project: project_name, bra
