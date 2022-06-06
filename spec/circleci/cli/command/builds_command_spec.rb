@@ -33,4 +33,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
   end
 
   context 'with project input' do
-    let(:project_name)
+    let(:project_name) { 'user/project_from_option_' }
+    let(:options) { OpenS
