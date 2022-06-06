@@ -32,4 +32,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
     it_behaves_like 'a command show builds information'
   end
 
-  context '
+  context 'with project input' do
+    let(:project_name)
