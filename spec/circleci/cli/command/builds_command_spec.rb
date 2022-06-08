@@ -36,4 +36,7 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
     let(:project_name) { 'user/project_from_option_' }
     let(:options) { OpenStruct.new(project: project_name, branch: nil, pretty: true) }
 
-    it_behaves_like 'a comman
+    it_behaves_like 'a command show builds information'
+  end
+
+  context 'wit
