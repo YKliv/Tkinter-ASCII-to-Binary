@@ -39,4 +39,5 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
     it_behaves_like 'a command show builds information'
   end
 
-  context 'wit
+  context 'with branch input' do
+    let(:project_name) { io_respo
