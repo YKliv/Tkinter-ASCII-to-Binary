@@ -41,4 +41,6 @@ describe CircleCI::CLI::Command::BuildsCommand, type: :command do
 
   context 'with branch input' do
     let(:project_name) { io_response_project_name }
-    let(:options) { OpenSt
+    let(:options) { OpenStruct.new(project: nil, branch: 'master', pretty: true) }
+
+   
