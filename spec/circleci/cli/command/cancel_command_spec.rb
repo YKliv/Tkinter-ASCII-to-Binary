@@ -2,4 +2,5 @@
 
 require 'spec_helper'
 
-describe CircleCI::CLI::Co
+describe CircleCI::CLI::Command::CancelCommand, type: :command do
+  shared_exam
