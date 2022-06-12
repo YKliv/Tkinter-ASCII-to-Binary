@@ -3,4 +3,5 @@
 require 'spec_helper'
 
 describe CircleCI::CLI::Command::CancelCommand, type: :command do
-  shared_exam
+  shared_examples_for 'a command cancels build' do
+    let(:ex
