@@ -9,4 +9,8 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
     it 'should cancel build' do
       allow(CircleCI::CLI::Command::CancelCommand).to receive(:say) { nil }
       expect(CircleCI::CLI::Command::CancelCommand).to receive(:say).with(expected_output.strip)
-      CircleCI::CLI::Command:
+      CircleCI::CLI::Command::CancelCommand.run(options)
+    end
+  end
+
+  context 'with n
