@@ -14,4 +14,6 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
   end
 
   context 'with no input' do
-    let(:options) { OpenStruct.new(p
+    let(:options) { OpenStruct.new(project: nil, build: nil) }
+
+    it_behave
