@@ -20,4 +20,5 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
     it_behaves_like 'a command cancels build'
   end
 
-  co
+  context 'with project input' do
+    let(:project_name)
