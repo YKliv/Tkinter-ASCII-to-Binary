@@ -21,4 +21,5 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
   end
 
   context 'with project input' do
-    let(:project_name)
+    let(:project_name) { 'unhappychoice/Circler' }
+    let(:options) { O
