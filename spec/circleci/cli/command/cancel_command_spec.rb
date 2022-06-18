@@ -22,4 +22,4 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
 
   context 'with project input' do
     let(:project_name) { 'unhappychoice/Circler' }
-    let(:options) { O
+    let(:options) { OpenStruct.new(project: project_name, bu
