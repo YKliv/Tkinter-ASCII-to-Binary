@@ -27,4 +27,5 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
     it_behaves_like 'a command cancels build'
   end
 
-  context 'with branch input
+  context 'with branch input' do
+    let(:options) { OpenStruct.new(
