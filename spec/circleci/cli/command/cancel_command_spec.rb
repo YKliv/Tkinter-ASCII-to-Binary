@@ -24,4 +24,7 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
     let(:project_name) { 'unhappychoice/Circler' }
     let(:options) { OpenStruct.new(project: project_name, build: nil) }
 
-    it_behaves_like 'a comma
+    it_behaves_like 'a command cancels build'
+  end
+
+  context 'with branch input
