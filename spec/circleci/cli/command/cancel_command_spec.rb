@@ -31,4 +31,6 @@ describe CircleCI::CLI::Command::CancelCommand, type: :command do
     let(:options) { OpenStruct.new(project: nil, build: 1234) }
 
     it_behaves_like 'a command asks project name'
-    it_behaves_like 'a com
+    it_behaves_like 'a command cancels build'
+  end
+end
