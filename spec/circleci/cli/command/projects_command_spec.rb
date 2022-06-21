@@ -22,3 +22,6 @@ describe CircleCI::CLI::Command::ProjectsCommand, type: :command do
       allow(CircleCI::CLI::Command::ProjectsCommand).to receive(:say) { nil }
       expect(CircleCI::CLI::Command::ProjectsCommand).to receive(:say).with(expected_output.strip)
       CircleCI::CLI::Command::ProjectsCommand.run(options)
+    end
+  end
+end
