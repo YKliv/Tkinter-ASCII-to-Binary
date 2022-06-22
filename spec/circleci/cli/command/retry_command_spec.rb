@@ -2,4 +2,5 @@
 
 require 'spec_helper'
 
-describe CircleCI::CLI::Command::RetryCommand, t
+describe CircleCI::CLI::Command::RetryCommand, type: :command do
+  shared_examples_for 'a
