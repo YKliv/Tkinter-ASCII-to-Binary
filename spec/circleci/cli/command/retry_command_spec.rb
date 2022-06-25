@@ -7,4 +7,8 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     it 'should retry build' do
       allow(CircleCI::CLI::Command::RetryCommand).to receive(:say) { nil }
       expect(CircleCI::CLI::Command::RetryCommand).to receive(:say).with(expected_output.strip)
-      CircleCI::CLI::Command::Ret
+      CircleCI::CLI::Command::RetryCommand.run(options)
+    end
+  end
+
+  
