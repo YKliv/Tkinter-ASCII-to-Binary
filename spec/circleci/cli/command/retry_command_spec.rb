@@ -11,4 +11,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     end
   end
 
-  
+  context 'with no input' do
+    let(:options) { 
