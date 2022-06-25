@@ -12,4 +12,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
   end
 
   context 'with no input' do
-    let(:options) { 
+    let(:options) { OpenStruct.new(project: nil, build: nil) }
+    l
