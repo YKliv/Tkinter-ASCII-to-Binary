@@ -15,4 +15,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     let(:options) { OpenStruct.new(project: nil, build: nil) }
     let(:expected_output) { 'build user/project_name_from_io 1234 is triggered' }
 
-    it_behaves_like 'a command asks
+    it_behaves_like 'a command asks project name'
+    it_behaves_like 'a command
