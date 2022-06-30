@@ -19,4 +19,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     it_behaves_like 'a command retries build'
   end
 
-  context 'with project 
+  context 'with project input' do
+    let(:project_name) { 'unhappychoice/Cir
