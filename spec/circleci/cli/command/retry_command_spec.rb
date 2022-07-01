@@ -24,4 +24,7 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     let(:options) { OpenStruct.new(project: project_name, build: nil) }
     let(:expected_output) { 'build unhappychoice/Circler 1234 is triggered' }
 
-    it_behaves_l
+    it_behaves_like 'a command retries build'
+  end
+
+  context 'with 
