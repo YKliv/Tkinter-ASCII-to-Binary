@@ -27,4 +27,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     it_behaves_like 'a command retries build'
   end
 
-  context 'with 
+  context 'with branch input' do
+    let(:options) { Ope
