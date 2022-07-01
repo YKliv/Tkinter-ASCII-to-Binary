@@ -21,4 +21,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
 
   context 'with project input' do
     let(:project_name) { 'unhappychoice/Circler' }
-    let(:options) { OpenStruct.new(project: project_name,
+    let(:options) { OpenStruct.new(project: project_name, build: nil) }
+    let(:expected_output) { 'build unhappychoice/C
