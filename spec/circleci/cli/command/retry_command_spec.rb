@@ -29,4 +29,4 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
 
   context 'with branch input' do
     let(:options) { OpenStruct.new(project: nil, build: 1234) }
-    let(:expec
+    let(:expected_output) { 'build user/project_name_from_io 
