@@ -28,4 +28,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
   end
 
   context 'with branch input' do
-    let(:options) { Ope
+    let(:options) { OpenStruct.new(project: nil, build: 1234) }
+    let(:expec
