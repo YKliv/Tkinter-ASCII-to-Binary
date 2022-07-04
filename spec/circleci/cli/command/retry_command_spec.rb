@@ -35,4 +35,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     it_behaves_like 'a command retries build'
   end
 
-  context 'with last
+  context 'with last option' do
+    let(:options) { OpenStruct.new(proje
