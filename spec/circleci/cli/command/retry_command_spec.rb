@@ -36,4 +36,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
   end
 
   context 'with last option' do
-    let(:options) { OpenStruct.new(proje
+    let(:options) { OpenStruct.new(project: 'unhappychoice/Circler', last: true) }
+    let(:ex
