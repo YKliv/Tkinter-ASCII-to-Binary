@@ -40,4 +40,5 @@ describe CircleCI::CLI::Command::RetryCommand, type: :command do
     let(:expected_output) { 'build unhappychoice/Circler 1234 is triggered' }
 
     it_behaves_like 'a command retries build'
-  e
+  end
+end
