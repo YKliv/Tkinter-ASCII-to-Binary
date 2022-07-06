@@ -56,3 +56,12 @@ describe CircleCI::CLI::Command::BuildRepository do
 
     it { is_expected.to match_array [build] }
   end
+
+  describe '#build_for' do
+    subject do
+      CircleCI::CLI::Command::BuildRepository.new(build.username, build.reponame).build_for(build.build_number)
+    end
+
+    it { is_expected.to eq build }
+  end
+end
