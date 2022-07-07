@@ -2,4 +2,6 @@
 
 require 'spec_helper'
 
-describe CircleCI::CLI::C
+describe CircleCI::CLI::Command::BuildWatcher do
+  let(:build) do
+    CircleCI::
