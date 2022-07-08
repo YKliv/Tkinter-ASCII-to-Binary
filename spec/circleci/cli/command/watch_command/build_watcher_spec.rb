@@ -6,4 +6,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
   let(:build) do
     CircleCI::CLI::Response::Build.new(
       {
-        'username' 
+        'username' => 'unhappychoice',
+        'reponame' => 'default_repona
