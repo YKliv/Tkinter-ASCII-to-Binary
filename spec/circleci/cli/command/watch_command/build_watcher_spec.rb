@@ -9,4 +9,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
         'username' => 'unhappychoice',
         'reponame' => 'default_reponame_from_api',
         'status' => 'success',
-        '
+        'build_num' => 1234,
+        'branch' => 'master',
+     
