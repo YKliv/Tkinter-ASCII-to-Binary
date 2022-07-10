@@ -11,4 +11,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         'status' => 'success',
         'build_num' => 1234,
         'branch' => 'master',
-     
+        'author_name' => 'unhappychoice',
+        'subj
