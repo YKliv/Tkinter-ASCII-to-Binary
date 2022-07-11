@@ -12,4 +12,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         'build_num' => 1234,
         'branch' => 'master',
         'author_name' => 'unhappychoice',
-        'subj
+        'subject' => 'Commit',
+        'build_time_millis' => 1000
