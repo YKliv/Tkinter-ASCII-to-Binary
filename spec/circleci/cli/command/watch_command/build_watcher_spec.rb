@@ -18,4 +18,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
         'steps' => [
           {
             'status' => 'success',
-            'actions' => [{ 'type' =
+            'actions' => [{ 'type' => 'build', 'name' => 'Build',
