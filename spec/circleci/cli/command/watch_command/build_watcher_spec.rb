@@ -17,4 +17,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         'start_time' => 100_000,
         'steps' => [
           {
-            'sta
+            'status' => 'success',
+            'actions' => [{ 'type' =
