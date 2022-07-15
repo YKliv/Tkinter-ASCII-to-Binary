@@ -21,4 +21,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
             'actions' => [{ 'type' => 'build', 'name' => 'Build', 'status' => 'success', 'run_time_millis' => 1000 }]
           },
           {
-       
+            'status' => 'success',
+            'act
