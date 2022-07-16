@@ -22,4 +22,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
           },
           {
             'status' => 'success',
-            'act
+            'actions' => [{ 'type' => 'test', 'name' => 'Test', 'stat
