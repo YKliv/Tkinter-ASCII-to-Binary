@@ -33,4 +33,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
     subject { described_class.new(build, verbose: verbose).start }
 
     before do
-      expect
+      expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
