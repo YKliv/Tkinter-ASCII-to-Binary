@@ -30,4 +30,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
   end
 
   describe '#start' do
-    subject { described_class.new(bui
+    subject { described_class.new(build, verbose: verbose).start }
+
+    before do
+      expect
