@@ -29,4 +29,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
     )
   end
 
-  describ
+  describe '#start' do
+    subject { described_class.new(bui
