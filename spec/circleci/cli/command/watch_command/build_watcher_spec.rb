@@ -34,3 +34,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
     before do
       expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
+        .to receive(:bind_event_json).with(build.channel
