@@ -37,4 +37,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         .to receive(:bind_event_json).with(build.channel_name, 'newAction')
       expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
         .to receive(:bind_event_json).with(build.channel_name, 'appendAction')
-      expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherCli
+      expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
+        .to receive(:bind_event_json).
