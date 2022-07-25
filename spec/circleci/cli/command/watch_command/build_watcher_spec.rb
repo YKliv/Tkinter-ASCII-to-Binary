@@ -43,4 +43,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
       expect_any_instance_of(described_class).to receive(:say).with(expected.strip)
     end
 
-    context 'with verbose opti
+    context 'with verbose option' do
+      let(:verbose) { true }
+      let(:expe
