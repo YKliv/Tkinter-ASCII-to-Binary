@@ -40,4 +40,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
       expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
         .to receive(:bind_event_json).with(build.channel_name, 'updateAction')
 
-      expect_any_instance_of(described_class).to rec
+      expect_any_instance_of(described_class).to receive(:say).with(expected.strip)
+    end
+
+    context 'with verbose opti
