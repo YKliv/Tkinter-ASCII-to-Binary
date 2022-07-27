@@ -45,4 +45,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
     context 'with verbose option' do
       let(:verbose) { true }
-      let(:expe
+      let(:expected) do
+        <<~EXPECTED
+          +---------------
