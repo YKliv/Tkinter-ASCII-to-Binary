@@ -47,4 +47,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
       let(:verbose) { true }
       let(:expected) do
         <<~EXPECTED
-          +---------------
+          +-----------------------------------------------------------
