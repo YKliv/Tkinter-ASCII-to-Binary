@@ -53,4 +53,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
           | Project:  unhappychoice/default_reponame_from_api                                                                    |
           | Build:    1234                                                                                                       |
           | Author:   unhappychoice                                                                                              |
-          | Workflow: /                                    
+          | Workflow: /                                                                                    
