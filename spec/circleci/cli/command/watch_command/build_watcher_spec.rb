@@ -55,4 +55,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
           | Author:   unhappychoice                                                                                              |
           | Workflow: /                                                                                                          |
           +----------------------------------------------------------------------------------------------------------------------+
-      
+        EXPECTED
+      end
+
+      it 'prints build inform
