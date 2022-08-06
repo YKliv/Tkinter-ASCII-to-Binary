@@ -58,4 +58,9 @@ describe CircleCI::CLI::Command::BuildWatcher do
         EXPECTED
       end
 
-      it 'prints build inform
+      it 'prints build information' do
+        subject
+      end
+    end
+
+    conte
