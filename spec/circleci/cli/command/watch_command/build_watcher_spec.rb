@@ -68,4 +68,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
       let(:expected) do
         <<~EXPECTED
           +----------------------------------------------------------------------------------------------------------------------+
-          |                           👀 Start watc
+          |                           👀 Start watching unhappychoice/default_reponame_from_api
