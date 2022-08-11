@@ -71,4 +71,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
           |                           👀 Start watching unhappychoice/default_reponame_from_api #1234                            |
           +----------------------------------------------------------------------------------------------------------------------+
           | Project:  unhappychoice/default_reponame_from_api                                                                    |
-          | Bui
+          | Build:    1234                                     
