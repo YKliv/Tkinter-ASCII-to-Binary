@@ -74,4 +74,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
           | Build:    1234                                                                                                       |
           | Author:   unhappychoice                                                                                              |
           | Workflow: /                                                                                                          |
-          +---------------------------------
+          +-----------------------------------------------------------------------------
