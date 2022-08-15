@@ -75,4 +75,8 @@ describe CircleCI::CLI::Command::BuildWatcher do
           | Author:   unhappychoice                                                                                              |
           | Workflow: /                                                                                                          |
           +----------------------------------------------------------------------------------------------------------------------+
-        EXPECT
+        EXPECTED
+      end
+
+      it 'prints build information' do
+        s
