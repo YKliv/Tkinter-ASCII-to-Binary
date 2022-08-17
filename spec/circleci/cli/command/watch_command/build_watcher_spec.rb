@@ -85,4 +85,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
   end
 
   describe '#stop' do
-    subject { described_class.new(build, verb
+    subject { described_class.new(build, verbose: verbose).stop(status) }
+
+    before do
