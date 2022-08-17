@@ -79,4 +79,9 @@ describe CircleCI::CLI::Command::BuildWatcher do
       end
 
       it 'prints build information' do
-        s
+        subject
+      end
+    end
+  end
+
+  describe
