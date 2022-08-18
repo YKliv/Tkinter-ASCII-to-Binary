@@ -88,4 +88,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
     subject { described_class.new(build, verbose: verbose).stop(status) }
 
     before do
-      expect_any_instance_of(CircleCI::CLI::Networking::Cir
+      expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
+        .to receive(:
