@@ -89,4 +89,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
     before do
       expect_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
-        .to receive(:
+        .to receive(:unsubscribe).with("#{build.channel_name}@0
