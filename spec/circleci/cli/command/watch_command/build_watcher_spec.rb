@@ -95,4 +95,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
     context 'with verbose option' do
       let(:verbose) { true }
 
-      conte
+      context 'when status is success' do
+        let(:sta
