@@ -92,4 +92,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
         .to receive(:unsubscribe).with("#{build.channel_name}@0")
     end
 
-    context 'with verbose opti
+    context 'with verbose option' do
+      let(:verbose) { true }
+
+      conte
