@@ -99,4 +99,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         let(:status) { 'success' }
 
         it 'prints message' do
-         
+          expected = <<~EXPECTED
+            +---------------------
