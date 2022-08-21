@@ -96,4 +96,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
       let(:verbose) { true }
 
       context 'when status is success' do
-        let(:sta
+        let(:status) { 'success' }
+
+        it 'prints message' do
+         
