@@ -101,4 +101,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         it 'prints message' do
           expected = <<~EXPECTED
             +----------------------------------------------------------------------------------------------------------------------+
-            | \e[0;32;49m🎉 unhappychoice/default_reponame_from_api #1234 has succeeded!\e[0m         
+            | \e[0;32;49m🎉 unhappychoice/default_reponame_from_api #1234 has succeeded!\e[0m                                                      |
+     
