@@ -110,4 +110,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         end
       end
 
-      cont
+      context 'when status is failed' do
+        let(:s
