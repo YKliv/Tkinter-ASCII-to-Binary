@@ -121,4 +121,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
           EXPECTED
           expect_any_instance_of(described_class).to receive(:say).with(expected.strip)
 
-  
+          subject
+        end
+      end
+ 
