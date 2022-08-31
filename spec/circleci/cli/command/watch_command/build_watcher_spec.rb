@@ -119,4 +119,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
             | \e[0;31;49m😥 unhappychoice/default_reponame_from_api #1234 has failed...\e[0m                                                       |
             +----------------------------------------------------------------------------------------------------------------------+
           EXPECTED
-          expect_any_instance_of(described_c
+          expect_any_instance_of(described_class).to receive(:say).with(expected.strip)
+
+  
