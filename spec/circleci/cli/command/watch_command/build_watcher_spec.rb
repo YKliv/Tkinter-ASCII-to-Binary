@@ -124,4 +124,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
           subject
         end
       end
- 
+    end
+
+    context 'without verbose option' do
+      
