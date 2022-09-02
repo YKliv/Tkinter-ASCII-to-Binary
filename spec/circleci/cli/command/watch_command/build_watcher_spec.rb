@@ -129,4 +129,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
     context 'without verbose option' do
       let(:verbose) { false }
 
-      context 'when status is succe
+      context 'when status is success' do
+        let(:status) { 'success' }
+
