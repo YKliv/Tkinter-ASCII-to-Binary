@@ -134,4 +134,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
         it 'prints message' do
           expect_any_instance_of(described_class)
-            .t
+            .to receive(:say).with("\e[0;32;49m🎉 unhappychoice/defa
