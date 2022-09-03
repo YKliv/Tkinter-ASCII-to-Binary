@@ -133,4 +133,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         let(:status) { 'success' }
 
         it 'prints message' do
-          e
+          expect_any_instance_of(described_class)
+            .t
