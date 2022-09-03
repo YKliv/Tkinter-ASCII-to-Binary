@@ -132,3 +132,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
       context 'when status is success' do
         let(:status) { 'success' }
 
+        it 'prints message' do
+          e
