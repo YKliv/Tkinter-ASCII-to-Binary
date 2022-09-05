@@ -139,3 +139,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
           subject
         end
       end
+
+      context 'when status is failed' do
+        
