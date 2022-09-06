@@ -141,4 +141,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
       end
 
       context 'when status is failed' do
-        
+        let(:status) { 'failed' }
+
+        it 'prints message' d
