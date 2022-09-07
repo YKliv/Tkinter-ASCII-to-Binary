@@ -143,4 +143,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
       context 'when status is failed' do
         let(:status) { 'failed' }
 
-        it 'prints message' d
+        it 'prints message' do
+          expect_any_instance_of(desc
