@@ -144,4 +144,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
         let(:status) { 'failed' }
 
         it 'prints message' do
-          expect_any_instance_of(desc
+          expect_any_instance_of(described_class)
+            .to receive(:say).with(
