@@ -148,4 +148,9 @@ describe CircleCI::CLI::Command::BuildWatcher do
             .to receive(:say).with("\e[0;31;49m😥 unhappychoice/default_reponame_from_api #1234 has failed...\e[0m")
 
           subject
-        en
+        end
+      end
+    end
+  end
+
+  context 'wit
