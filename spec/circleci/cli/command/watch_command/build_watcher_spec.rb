@@ -145,4 +145,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
         it 'prints message' do
           expect_any_instance_of(described_class)
-            .to receive(:say).with("\e[0;31;49m😥 unhappychoice/default_reponame_from_api #12
+            .to receive(:say).with("\e[0;31;49m😥 unhappychoice/default_reponame_from_api #1234 has failed...\e[0m")
+
+          subject
+        en
