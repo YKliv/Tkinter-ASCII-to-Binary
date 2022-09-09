@@ -154,4 +154,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
   end
 
   context 'with pusher events' do
-    subject { described_class.n
+    subject { described_class.new(build, verbose: verbose).start }
+
+ 
