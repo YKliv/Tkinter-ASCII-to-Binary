@@ -153,4 +153,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
     end
   end
 
-  context 'wit
+  context 'with pusher events' do
+    subject { described_class.n
