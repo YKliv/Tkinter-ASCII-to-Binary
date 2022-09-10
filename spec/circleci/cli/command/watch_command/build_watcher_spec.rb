@@ -157,4 +157,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
     subject { described_class.new(build, verbose: verbose).start }
 
     let(:new_actions) { [{ 'log' => { 'name' => 'new action' } }] }
-    let(:append_actions) 
+    let(:append_actions) { [{ 'step' => 'step1', 'out' => { 'message' => 'appen
