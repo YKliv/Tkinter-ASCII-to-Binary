@@ -156,4 +156,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
   context 'with pusher events' do
     subject { described_class.new(build, verbose: verbose).start }
 
-    let(:new_actions) { [{ 'log' => { 'name' =
+    let(:new_actions) { [{ 'log' => { 'name' => 'new action' } }] }
+    let(:append_actions) 
