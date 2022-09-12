@@ -158,4 +158,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
     let(:new_actions) { [{ 'log' => { 'name' => 'new action' } }] }
     let(:append_actions) { [{ 'step' => 'step1', 'out' => { 'message' => 'append action' } }] }
-    let(:update_actions) 
+    let(:update_actions) { [{ 'step' => 'step1', 'log' => { 'status
