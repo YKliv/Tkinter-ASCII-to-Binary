@@ -163,4 +163,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
     before do
       allow_any_instance_of(described_class).to receive(:notify_started)
 
-      allo
+      allow_any_instance_of(CircleCI::CLI::Networking::Circ
