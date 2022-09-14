@@ -161,4 +161,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
     let(:update_actions) { [{ 'step' => 'step1', 'log' => { 'status' => 'failed', 'name' => 'update action' } }] }
 
     before do
-      allow_any_instance_of(described_cl
+      allow_any_instance_of(described_class).to receive(:notify_started)
+
+      allo
