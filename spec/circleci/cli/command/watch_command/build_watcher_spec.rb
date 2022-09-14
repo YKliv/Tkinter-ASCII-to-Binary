@@ -160,4 +160,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
     let(:append_actions) { [{ 'step' => 'step1', 'out' => { 'message' => 'append action' } }] }
     let(:update_actions) { [{ 'step' => 'step1', 'log' => { 'status' => 'failed', 'name' => 'update action' } }] }
 
-    before
+    before do
+      allow_any_instance_of(described_cl
