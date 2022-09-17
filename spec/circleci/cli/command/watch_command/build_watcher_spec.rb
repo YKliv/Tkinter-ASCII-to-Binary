@@ -168,4 +168,4 @@ describe CircleCI::CLI::Command::BuildWatcher do
       allow_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
         .to receive(:bind_event_json).with(build.channel_name, 'appendAction').and_yield(*append_actions)
       allow_any_instance_of(CircleCI::CLI::Networking::CircleCIPusherClient)
-        .to receive(:bind_event_json).with(build.channel_
+        .to receive(:bind_event_json).with(build.channel_name, 'updateAction').and_yield(*update
