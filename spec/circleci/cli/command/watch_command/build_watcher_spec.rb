@@ -171,4 +171,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
         .to receive(:bind_event_json).with(build.channel_name, 'updateAction').and_yield(*update_actions)
     end
 
-    context 'with verbos
+    context 'with verbose option' do
+      let(:verbose) { true }
+
+      it 'prin
