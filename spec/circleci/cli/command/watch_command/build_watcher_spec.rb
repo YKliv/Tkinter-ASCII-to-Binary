@@ -174,4 +174,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
     context 'with verbose option' do
       let(:verbose) { true }
 
-      it 'prin
+      it 'prints log name' do
+        expected = <<~EXPECTED
+         
