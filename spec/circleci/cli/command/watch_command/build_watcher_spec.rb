@@ -177,4 +177,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
       it 'prints log name' do
         expected = <<~EXPECTED
           +----------------------------------------------------------------------------------------------------------------------+
-          | new action                                                    
+          | new action                                                                                                           |
+ 
