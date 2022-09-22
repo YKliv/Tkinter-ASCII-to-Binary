@@ -180,4 +180,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
           | new action                                                                                                           |
           +----------------------------------------------------------------------------------------------------------------------+
         EXPECTED
-        allow_any_instance_of(described_class).to receive(
+        allow_any_instance_of(described_class).to receive(:say).with(expected.strip)
+        allow_any_instanc
