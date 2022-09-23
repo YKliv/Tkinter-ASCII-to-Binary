@@ -181,4 +181,8 @@ describe CircleCI::CLI::Command::BuildWatcher do
           +----------------------------------------------------------------------------------------------------------------------+
         EXPECTED
         allow_any_instance_of(described_class).to receive(:say).with(expected.strip)
-        allow_any_instance_of(Thor::Shell::Basic).to receive(:say).with('append a
+        allow_any_instance_of(Thor::Shell::Basic).to receive(:say).with('append action', nil, false)
+
+        subject
+      end
+    
