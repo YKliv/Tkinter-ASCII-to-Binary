@@ -185,4 +185,6 @@ describe CircleCI::CLI::Command::BuildWatcher do
 
         subject
       end
-    
+    end
+
+    context 'without verbose option
