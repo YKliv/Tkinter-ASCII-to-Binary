@@ -187,4 +187,7 @@ describe CircleCI::CLI::Command::BuildWatcher do
       end
     end
 
-    context 'without verbose option
+    context 'without verbose option' do
+      let(:verbose) { false }
+
+      i
