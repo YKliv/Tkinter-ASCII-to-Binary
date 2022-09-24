@@ -190,4 +190,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
     context 'without verbose option' do
       let(:verbose) { false }
 
-      i
+      it 'prints log name' do
+        allow_any_
