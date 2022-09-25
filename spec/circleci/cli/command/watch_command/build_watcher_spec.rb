@@ -191,4 +191,5 @@ describe CircleCI::CLI::Command::BuildWatcher do
       let(:verbose) { false }
 
       it 'prints log name' do
-        allow_any_instance_of(described_class).to receive(:print).with(
+        allow_any_instance_of(described_class).to receive(:print).with('new action')
+        allow_any_instance_of(described_cla
