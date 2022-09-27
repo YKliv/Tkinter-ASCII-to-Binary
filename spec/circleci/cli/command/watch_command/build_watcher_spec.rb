@@ -194,4 +194,8 @@ describe CircleCI::CLI::Command::BuildWatcher do
         allow_any_instance_of(described_class).to receive(:print).with('new action')
         allow_any_instance_of(described_class).to receive(:puts).with("\e[2K\r\e[0;31;49mupdate action\e[0m")
         allow_any_instance_of(described_class).to receive(:say).with('append action')
-     
+        subject
+      end
+    end
+  end
+end
