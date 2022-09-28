@@ -67,3 +67,8 @@ describe CircleCI::CLI::Networking::CircleCIPusherClient, type: :networking do
     it 'unsubscribes channel' do
       allow_any_instance_of(described_class).to receive(:socket) { mock_socket }
       expect(mock_socket).to receive(:unsubscribe).with(channel)
+
+      subject
+    end
+  end
+end
