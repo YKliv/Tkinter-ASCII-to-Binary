@@ -87,3 +87,5 @@ describe CircleCI::CLI::Printer::BuildPrinter, type: :printer do
         expect(subject).to eq expected.strip
       end
     end
+  end
+end
