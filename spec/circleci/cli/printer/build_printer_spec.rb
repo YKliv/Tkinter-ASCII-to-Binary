@@ -44,3 +44,46 @@ describe CircleCI::CLI::Printer::BuildPrinter, type: :printer do
             'branch' => 'master',
             'author_name' => 'unhappychoice',
             'build_time_millis' => 9_300,
+            'start_time' => 120_000,
+            'steps' => [
+              {
+                'status' => 'failed',
+                'actions' => [
+                  { 'type' => 'build', 'name' => 'Build', 'status' => 'success', 'run_time_millis' => 1290 }
+                ]
+              }
+            ]
+          }
+        )
+      ]
+    end
+
+    context 'with pretty option' do
+      let(:pretty) { true }
+
+      it 'prints steps' do
+        expected = <<~EXPECTED
+          +---------------------------------------------------------------------------+
+          |          \e[0;32;49mRecent Builds / unhappychoice/default_reponame_from_api\e[0m          |
+          +--------+---------+--------+---------------+--------+----------+-----------+
+          | Number | Status  | Branch | Author        | Commit | Duration | StartTime |
+          +--------+---------+--------+---------------+--------+----------+-----------+
+          | 1234   | \e[0;32;49msuccess\e[0m | \e[0;32;49mmaster\e[0m | unhappychoice |        | 00:23    | 100000    |
+          | 1236   | \e[0;31;49mfailed\e[0m  | \e[0;31;49mmaster\e[0m | unhappychoice |        | 00:09    | 120000    |
+          +--------+---------+--------+---------------+--------+----------+-----------+
+        EXPECTED
+        expect(subject).to eq expected.strip
+      end
+    end
+
+    context 'without pretty option' do
+      let(:pretty) { false }
+
+      it 'prints steps' do
+        expected = <<~EXPECTED
+          1234  \e[0;32;49msuccess\e[0m  \e[0;32;49mmaster\e[0m  unhappychoice    00:23  100000
+          1236  \e[0;31;49mfailed\e[0m   \e[0;31;49mmaster\e[0m  unhappychoice    00:09  120000
+        EXPECTED
+        expect(subject).to eq expected.strip
+      end
+    end
