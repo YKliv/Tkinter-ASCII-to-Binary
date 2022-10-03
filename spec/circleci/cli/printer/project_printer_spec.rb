@@ -8,4 +8,4 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
 
     let(:projects) do
       [
-      
+        CircleCI::CLI::Response::Project.ne
