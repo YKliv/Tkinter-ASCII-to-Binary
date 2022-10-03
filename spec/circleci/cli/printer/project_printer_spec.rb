@@ -1,3 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_help
+require 'spec_helper'
+
+describe CircleCI::CLI::Printer::ProjectPrinte
