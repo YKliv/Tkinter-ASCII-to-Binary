@@ -12,4 +12,4 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
         CircleCI::CLI::Response::Project.new({ 'username' => 'user2', 'reponame' => 'repository2' }),
         CircleCI::CLI::Response::Project.new({ 'username' => 'user1', 'reponame' => 'repository3' }),
         CircleCI::CLI::Response::Project.new({ 'username' => 'user2', 'reponame' => 'repository4' }),
-        CircleCI::CLI::Response::Project.new({ '
+        CircleCI::CLI::Response::Project.new({ 'username' => 'user3', 'reponame' => 'repositor
