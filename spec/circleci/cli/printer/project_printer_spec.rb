@@ -20,4 +20,5 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
       let(:pretty) { true }
 
       it 'prints steps' do
-     
+        expected = <<~EXPECTED
+          +-----------
