@@ -21,4 +21,5 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
 
       it 'prints steps' do
         expected = <<~EXPECTED
-          +-----------
+          +-----------------------------+
+          |          \e[0;32;49mProjects
