@@ -26,4 +26,6 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
           +-----------+-----------------+
           | User name | Repository name |
           +-----------+-----------------+
-          | user1     | reposit
+          | user1     | repository1     |
+          | user2     | repository2     |
+          | 
