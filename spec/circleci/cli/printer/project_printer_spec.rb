@@ -30,4 +30,5 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
           | user2     | repository2     |
           | user1     | repository3     |
           | user2     | repository4     |
-          | user3     
+          | user3     | repository5     |
+          +-----------+-------
