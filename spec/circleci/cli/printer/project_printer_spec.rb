@@ -37,4 +37,5 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
       end
     end
 
- 
+    context 'without pretty option' do
+      let(:p
