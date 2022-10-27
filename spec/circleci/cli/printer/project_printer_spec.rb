@@ -38,4 +38,7 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
     end
 
     context 'without pretty option' do
-      let(:p
+      let(:pretty) { false }
+
+      it 'prints steps' do
+    
