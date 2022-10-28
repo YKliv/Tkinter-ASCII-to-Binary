@@ -43,3 +43,5 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
       it 'prints steps' do
         expected = <<~EXPECTED
           user1/repository1
+          user1/repository3
+          user2/reposi
