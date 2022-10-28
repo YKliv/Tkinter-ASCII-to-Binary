@@ -46,4 +46,6 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
           user1/repository3
           user2/repository2
           user2/repository4
-          user3/r
+          user3/repository5
+        EXPECTED
+        expect(subject
