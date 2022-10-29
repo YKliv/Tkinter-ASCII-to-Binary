@@ -48,4 +48,7 @@ describe CircleCI::CLI::Printer::ProjectPrinter, type: :printer do
           user2/repository4
           user3/repository5
         EXPECTED
-        expect(subject
+        expect(subject).to eq expected.strip
+      end
+    end
+  
