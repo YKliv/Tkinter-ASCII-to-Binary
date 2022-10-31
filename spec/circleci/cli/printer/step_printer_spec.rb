@@ -2,4 +2,5 @@
 
 require 'spec_helper'
 
-describe CircleCI::CLI::P
+describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
+  desc
