@@ -3,4 +3,5 @@
 require 'spec_helper'
 
 describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
-  desc
+  describe '#to_s' do
+    subject { described_class.new(
