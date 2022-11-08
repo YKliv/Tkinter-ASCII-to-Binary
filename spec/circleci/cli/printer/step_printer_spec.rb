@@ -7,4 +7,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
     subject { described_class.new(steps, pretty: pretty).to_s }
 
     before do
-      allow_any_instance_of(CircleCI::CLI::Response::A
+      allow_any_instance_of(CircleCI::CLI::Response::Action).to receive(:log) { 'action log' }
+    
