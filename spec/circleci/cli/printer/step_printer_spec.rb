@@ -17,4 +17,4 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           {
             'status' => 'success',
             'actions' => [
-      
+              { 'type' => 'build', 'name' => 'Depe
