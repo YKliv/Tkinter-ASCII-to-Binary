@@ -15,4 +15,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
         CircleCI::CLI::Response::Step.new(
           'build',
           {
-            'status' => 'succ
+            'status' => 'success',
+            'actions' => [
+      
