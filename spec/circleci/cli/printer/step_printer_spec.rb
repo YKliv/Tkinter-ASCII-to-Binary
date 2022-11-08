@@ -8,4 +8,8 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
 
     before do
       allow_any_instance_of(CircleCI::CLI::Response::Action).to receive(:log) { 'action log' }
-    
+    end
+
+    let(:steps) do
+      [
+        Circle
