@@ -12,4 +12,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
 
     let(:steps) do
       [
-        Circle
+        CircleCI::CLI::Response::Step.new(
+          'build',
+     
