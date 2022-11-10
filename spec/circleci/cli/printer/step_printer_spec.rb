@@ -18,4 +18,4 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
             'status' => 'success',
             'actions' => [
               { 'type' => 'build', 'name' => 'Dependency', 'status' => 'ok', 'run_time_millis' => 1200 },
-              { 'type' => 'build', 'nam
+              { 'type' => 'build', 'name' => 'Build', 'status' => 'canceled', '
