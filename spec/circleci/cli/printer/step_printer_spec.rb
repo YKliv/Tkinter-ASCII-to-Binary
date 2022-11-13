@@ -25,4 +25,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
         CircleCI::CLI::Response::Step.new(
           'test',
           {
-        
+            'status' => 'success',
+            'ac
