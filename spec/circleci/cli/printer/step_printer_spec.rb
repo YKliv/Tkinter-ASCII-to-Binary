@@ -22,4 +22,7 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
             ]
           }
         ),
-        CircleCI::CLI::Re
+        CircleCI::CLI::Response::Step.new(
+          'test',
+          {
+        
