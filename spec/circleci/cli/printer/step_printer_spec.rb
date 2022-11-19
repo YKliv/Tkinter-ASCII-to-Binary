@@ -31,4 +31,7 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
             ]
           }
         ),
-        CircleCI::CLI::Response::St
+        CircleCI::CLI::Response::Step.new(
+          'deploy',
+          {
+        
