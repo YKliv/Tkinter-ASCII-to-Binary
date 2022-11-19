@@ -29,4 +29,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
             'actions' => [
               { 'type' => 'test', 'name' => 'Test', 'status' => 'failed', 'run_time_millis' => 1_200 }
             ]
-   
+          }
+        ),
+        CircleCI::CLI::Response::St
