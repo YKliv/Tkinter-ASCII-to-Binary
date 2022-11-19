@@ -27,4 +27,4 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           {
             'status' => 'success',
             'actions' => [
-              { 'type' =>
+              { 'type' => 'test', 'name' => 'Test', 'status' => 'fa
