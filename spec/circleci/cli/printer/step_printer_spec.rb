@@ -35,4 +35,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           'deploy',
           {
             'status' => 'success',
-            'actions' => 
+            'actions' => [
+              { 'type' => 'deploy', 'name' =
