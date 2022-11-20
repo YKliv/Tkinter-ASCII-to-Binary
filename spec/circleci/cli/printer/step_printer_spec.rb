@@ -44,3 +44,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
     end
 
     context 'with pretty option' do
+      let(:pretty) { true }
+
+      it 'prints step
