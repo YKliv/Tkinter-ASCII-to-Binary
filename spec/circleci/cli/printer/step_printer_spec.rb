@@ -48,4 +48,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
 
       it 'prints steps' do
         expected = <<~EXPECTED
-  
+          +--------------------+
+          +----
