@@ -46,4 +46,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
     context 'with pretty option' do
       let(:pretty) { true }
 
-      it 'prints step
+      it 'prints steps' do
+        expected = <<~EXPECTED
+  
