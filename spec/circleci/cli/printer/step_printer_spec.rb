@@ -50,4 +50,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
         expected = <<~EXPECTED
           +--------------------+
           +--------------------+
-          |       \e[0
+          |       \e[0;32;49mbuild\e[0m        |
+          +----
