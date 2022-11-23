@@ -54,4 +54,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           +------------+-------+
           | Dependency | 00:01 |
           | \e[0;33;49mBuild\e[0m      | 00:25 |
-          +------------+------
+          +------------+-------+
+          |        \e[0;32;49mtest\e[0m        |
