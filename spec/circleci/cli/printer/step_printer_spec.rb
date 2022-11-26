@@ -60,3 +60,4 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           | \e[0;31;49mTest\e[0m       | 00:01 |
           | action log         |
           +--------------------+
+          |       \e[0;32;49mdeploy\e[0m    
