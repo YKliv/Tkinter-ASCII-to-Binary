@@ -57,4 +57,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           +------------+-------+
           |        \e[0;32;49mtest\e[0m        |
           +------------+-------+
-          | \e[0;31;4
+          | \e[0;31;49mTest\e[0m       | 00:01 |
+          | a
