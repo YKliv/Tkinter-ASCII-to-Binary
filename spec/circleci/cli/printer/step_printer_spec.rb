@@ -70,4 +70,7 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
     end
 
     context 'without pretty option' do
-      let(:pre
+      let(:pretty) { false }
+
+      it 'prints steps' do
+      
