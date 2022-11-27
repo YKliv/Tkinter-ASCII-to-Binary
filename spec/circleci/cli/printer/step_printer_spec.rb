@@ -77,4 +77,8 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           Dependency
           \e[0;33;49mBuild\e[0m
 
-          \e[0;31;49mTest\e[0
+          \e[0;31;49mTest\e[0m
+          action log
+
+          \e[0;90;49mDeploy\e[0m
+       
