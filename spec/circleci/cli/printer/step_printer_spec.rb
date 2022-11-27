@@ -68,3 +68,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
         expect(subject).to eq expected.strip
       end
     end
+
+    context 'without pretty option' do
+      let(:pre
