@@ -65,4 +65,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           | \e[0;90;49mDeploy\e[0m     | 00:30 |
           +------------+-------+
         EXPECTED
-        expect(su
+        expect(subject).to eq expected.strip
+      end
+    end
