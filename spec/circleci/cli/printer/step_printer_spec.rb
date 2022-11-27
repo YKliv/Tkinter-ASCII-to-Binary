@@ -75,4 +75,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
       it 'prints steps' do
         expected = <<~EXPECTED
           Dependency
-   
+          \e[0;33;49mBuild\e[0m
+
+          \e[0;31;49mTest\e[0
