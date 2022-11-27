@@ -73,4 +73,6 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
       let(:pretty) { false }
 
       it 'prints steps' do
-      
+        expected = <<~EXPECTED
+          Dependency
+   
