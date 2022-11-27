@@ -62,4 +62,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           +--------------------+
           |       \e[0;32;49mdeploy\e[0m       |
           +------------+-------+
-          
+          | \e[0;90;49mDeploy\e[0m     | 00:30 |
+          +--------
