@@ -81,4 +81,5 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           action log
 
           \e[0;90;49mDeploy\e[0m
-       
+        EXPECTED
+        expect(subject).to eq expected
