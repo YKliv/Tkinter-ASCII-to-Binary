@@ -83,3 +83,7 @@ describe CircleCI::CLI::Printer::StepPrinter, type: :printer do
           \e[0;90;49mDeploy\e[0m
         EXPECTED
         expect(subject).to eq expected
+      end
+    end
+  end
+end
