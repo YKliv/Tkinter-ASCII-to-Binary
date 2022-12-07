@@ -2,4 +2,5 @@
 
 require 'spec_helper'
 
-describe C
+describe CircleCI::CLI do
+  it 'has a version numb
