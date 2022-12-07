@@ -3,4 +3,8 @@
 if ENV['COVERAGE']
   require 'simplecov'
   SimpleCov.add_filter ['spec']
-  SimpleCov.star
+  SimpleCov.start
+end
+
+if ENV['CODECOV_TOKEN']
+  require 'codec
