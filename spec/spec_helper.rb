@@ -7,4 +7,5 @@ if ENV['COVERAGE']
 end
 
 if ENV['CODECOV_TOKEN']
-  require 'codec
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codec
