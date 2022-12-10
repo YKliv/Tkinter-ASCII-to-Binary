@@ -8,4 +8,7 @@ end
 
 if ENV['CODECOV_TOKEN']
   require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codec
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
+
+$LOAD_PATH.unshift File.expand_path('../lib',
