@@ -11,4 +11,7 @@ if ENV['CODECOV_TOKEN']
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
-$LOAD_PATH.unshift File.expand_path('../lib',
+$LOAD_PATH.unshift File.expand_path('../lib', __dir__)
+require 'circleci_cli'
+
+Dir[File.join(
