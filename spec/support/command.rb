@@ -6,4 +6,5 @@ shared_examples_for 'a command asks project name' do
       +-------------------------------------------+
       |                 \e[0;32;49mProjects\e[0m                  |
       +---------------+---------------------------+
-      | U
+      | User name     | Repository name           |
+      +--------
