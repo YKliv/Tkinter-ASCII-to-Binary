@@ -8,3 +8,4 @@ shared_examples_for 'a command asks project name' do
       +---------------+---------------------------+
       | User name     | Repository name           |
       +---------------+---------------------------+
+      | unhappychoice | default_reponame_from_
