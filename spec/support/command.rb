@@ -13,4 +13,6 @@ shared_examples_for 'a command asks project name' do
     EXPECTED
   end
 
-  it 'should show project list
+  it 'should show project list' do
+    allow(Launchy).to receive(:open)
+    expect(Circl
