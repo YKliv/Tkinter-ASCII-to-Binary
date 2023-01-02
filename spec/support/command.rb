@@ -16,4 +16,4 @@ shared_examples_for 'a command asks project name' do
   it 'should show project list' do
     allow(Launchy).to receive(:open)
     expect(CircleCI::CLI::Command::BrowseCommand).to receive(:say).with(expected_project_name_output.strip)
-   
+    CircleCI::CLI::Command::BrowseCommand.run(
