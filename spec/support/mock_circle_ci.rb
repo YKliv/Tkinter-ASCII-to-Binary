@@ -5,4 +5,4 @@ shared_context 'mock circle ci response' do
   let(:account_hash) { { 'name' => 'account name' } }
   let(:build_hash) do
     {
-    
+      'username' => circleci_response_project_name.split('/').f
