@@ -6,4 +6,6 @@ shared_context 'mock circle ci response' do
   let(:build_hash) do
     {
       'username' => circleci_response_project_name.split('/').first,
-      'reponame' => circleci_response_proj
+      'reponame' => circleci_response_project_name.split('/').last,
+      'status' => 'success',
+    
