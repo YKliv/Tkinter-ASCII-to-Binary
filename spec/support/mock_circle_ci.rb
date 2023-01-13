@@ -10,4 +10,5 @@ shared_context 'mock circle ci response' do
       'status' => 'success',
       'build_num' => 1234,
       'branch' => 'master',
-      'author_name' => circleci_response_pr
+      'author_name' => circleci_response_project_name.split('/').first,
+      'subj
