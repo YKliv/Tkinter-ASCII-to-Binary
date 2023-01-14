@@ -11,4 +11,5 @@ shared_context 'mock circle ci response' do
       'build_num' => 1234,
       'branch' => 'master',
       'author_name' => circleci_response_project_name.split('/').first,
-      'subj
+      'subject' => 'Commit',
+      'build_time_millis'
