@@ -12,4 +12,6 @@ shared_context 'mock circle ci response' do
       'branch' => 'master',
       'author_name' => circleci_response_project_name.split('/').first,
       'subject' => 'Commit',
-      'build_time_millis'
+      'build_time_millis' => 1000,
+      'start_time' => 100_000,
+ 
