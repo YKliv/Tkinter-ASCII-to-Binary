@@ -14,4 +14,6 @@ shared_context 'mock circle ci response' do
       'subject' => 'Commit',
       'build_time_millis' => 1000,
       'start_time' => 100_000,
- 
+      'steps' => [
+        {
+          'status' =
