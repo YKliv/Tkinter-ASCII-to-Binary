@@ -21,4 +21,4 @@ shared_context 'mock circle ci response' do
         },
         {
           'status' => 'success',
-          'actions' => 
+          'actions' => [{ 'type' => 'test', 'name' => 'Test', 'status' =>
