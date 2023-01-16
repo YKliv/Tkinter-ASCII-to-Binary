@@ -30,4 +30,4 @@ shared_context 'mock circle ci response' do
   let(:project_hash) { { 'username' => 'unhappychoice', 'reponame' => 'default_reponame_from_api' } }
 
   before do
-  
+    allow(CircleCi::User).to receive_message_chain(:m
