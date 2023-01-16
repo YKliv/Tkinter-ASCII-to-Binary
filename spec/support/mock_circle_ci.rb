@@ -27,4 +27,7 @@ shared_context 'mock circle ci response' do
     }
   end
 
-  let(:project_hash) { { 'username' => 'unhappychoice', 'reponame' => 'defau
+  let(:project_hash) { { 'username' => 'unhappychoice', 'reponame' => 'default_reponame_from_api' } }
+
+  before do
+  
