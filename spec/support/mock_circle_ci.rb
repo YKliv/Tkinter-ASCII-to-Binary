@@ -23,3 +23,8 @@ shared_context 'mock circle ci response' do
           'status' => 'success',
           'actions' => [{ 'type' => 'test', 'name' => 'Test', 'status' => 'success', 'run_time_millis' => 1000 }]
         }
+      ]
+    }
+  end
+
+  let(:project_hash) { { 
