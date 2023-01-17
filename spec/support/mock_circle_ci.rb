@@ -31,4 +31,5 @@ shared_context 'mock circle ci response' do
 
   before do
     allow(CircleCi::User).to receive_message_chain(:me, :body) { account_hash }
-    allow_any_instance_of(CircleCi::Project).to receive_message_chain(
+    allow_any_instance_of(CircleCi::Project).to receive_message_chain(:recent_builds, :body) { [build_hash] }
+    allow_any_i
