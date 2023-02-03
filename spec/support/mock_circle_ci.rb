@@ -34,4 +34,5 @@ shared_context 'mock circle ci response' do
     allow_any_instance_of(CircleCi::Project).to receive_message_chain(:recent_builds, :body) { [build_hash] }
     allow_any_instance_of(CircleCi::Project).to receive_message_chain(:recent_builds_branch, :body) { [build_hash] }
     allow_any_instance_of(CircleCi::Build).to receive_message_chain(:get, :body) { build_hash }
-    allow_any_instance_of(CircleCi::Build).to receive_message_chain(:retry, :body) { buil
+    allow_any_instance_of(CircleCi::Build).to receive_message_chain(:retry, :body) { build_hash }
+    allow_any_instance_of(CircleCi::Build).to 
