@@ -41,4 +41,4 @@ shared_context 'mock circle ci response' do
 end
 
 RSpec.configure do |config|
- 
+  config.include_context 'mock circle ci response
