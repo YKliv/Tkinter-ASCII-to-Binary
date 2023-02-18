@@ -6,4 +6,4 @@ shared_context 'mock io' do
   let(:io_response_build_number) { 1234 }
 
   before do
-    ObjectSpace.each_object(Class).select { |klass| klas
+    ObjectSpace.each_object(Class).select { |klass| klass < CircleCI::CLI::Command::BaseCommand }.eac
