@@ -7,4 +7,4 @@ shared_context 'mock io' do
 
   before do
     ObjectSpace.each_object(Class).select { |klass| klass < CircleCI::CLI::Command::BaseCommand }.each do |klass|
-      allow(klass).to receive(:ask).wi
+      allow(klass).to receive(:ask).with('Circle CI token ? :') { io_response_circle_ci_
