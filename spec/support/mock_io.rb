@@ -6,4 +6,4 @@ shared_context 'mock io' do
   let(:io_response_build_number) { 1234 }
 
   before do
-    ObjectSpace.e
+    ObjectSpace.each_object(Class).select { |klass| klas
