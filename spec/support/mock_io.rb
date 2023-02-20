@@ -10,4 +10,10 @@ shared_context 'mock io' do
       allow(klass).to receive(:ask).with('Circle CI token ? :') { io_response_circle_ci_token }
       allow(klass).to receive(:ask).with('Input user-name/project-name :') { io_response_project_name }
       allow(klass).to receive(:ask).with('Input build number') { io_response_build_number }
-      allow(klass).to receive(:reponame
+      allow(klass).to receive(:reponame) { nil }
+    end
+  end
+end
+
+RSpec.configure do |config|
+  config.in
