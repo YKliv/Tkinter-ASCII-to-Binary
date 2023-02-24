@@ -16,4 +16,5 @@ shared_context 'mock io' do
 end
 
 RSpec.configure do |config|
-  config.in
+  config.include_context 'mock io', type: :command
+end
